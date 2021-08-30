@@ -1,0 +1,20 @@
+<article class="mh-loop-item mh-clearfix">
+  <figure class="mh-loop-thumb">
+    <a href="{{ post.url }}">
+      <img class="" width="326" src="{{post.image}}" />
+    </a>
+  </figure>
+  <div class="mh-loop-content mh-clearfix">
+    <header class="mh-loop-header">
+      <h3 class="entry-title mh-loop-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    </header>
+    <div class="mh-loop-excerpt">
+      <div class="mh-excerpt">
+        <p>
+          {{ post.excerpt | markdownify | strip_html | truncatewords: 25," " }}
+          <a class="mh-excerpt-more" href="{{ post.url }}" title="{{ post.title }}">[&#8230;]</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</article>
