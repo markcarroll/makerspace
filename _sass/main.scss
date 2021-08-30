@@ -1,0 +1,58 @@
+.page_ww {
+  background-image: url("/woodworking/images/wood-3212803_1920.jpg");
+  background-position: left top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.site-header {
+  border: none;
+  min-height: auto;
+
+  .wrapper {
+    border-bottom: 5px solid #424242;
+    // border-bottom: 1px solid #e8e8e8;
+
+    // background-color: black;
+    // color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.page-content {
+  padding-top: 0;
+  .wrapper {
+    padding-top: 30px;
+  }
+}
+
+.post-summary {
+  display: flex;
+  flex-wrap: wrap;
+
+  article {
+    width: 33.3%;
+    box-sizing: border-box;
+    padding-right: 2em;
+  }
+  .thumb {
+    max-width: 100%;
+    object-fit: cover;
+  }
+  @include media-query(600px) {
+    article {
+      width: 50%;
+    }
+  }
+  @include media-query(400px) {
+    article {
+      width: 100%;
+    }
+  }
+}
+
+.wrapper {
+  background-color: white;
+}

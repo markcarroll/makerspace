@@ -29,11 +29,13 @@ instagram_username: markswoodprojects
 github_username: markcarroll
 
 permalink: /:categories/:title:output_ext
+show_excerpts: false
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 kramdown:
   syntax_highlighter: rouge
 # Exclude from processing.
@@ -55,4 +57,5 @@ kramdown:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-# livereload: true
+livereload: true
+incremental: false

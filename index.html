@@ -1,4 +1,7 @@
 ---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
 layout: default
 ---
 
@@ -7,10 +10,9 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
-  {{ content }}
+{%- if site.posts.size > 0 -%}
 
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+<h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
 
     <div class="post-summary">
     {%- for post in site.posts -%}
@@ -22,6 +24,7 @@ layout: default
 
 
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
+
+{%- endif -%}
 
 </div>

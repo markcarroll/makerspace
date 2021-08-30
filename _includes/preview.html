@@ -1,20 +1,13 @@
-<article class="mh-loop-item mh-clearfix">
-  <figure class="mh-loop-thumb">
+<article>
+  <figure>
     <a href="{{ post.url }}">
-      <img class="" width="326" src="{{post.image}}" />
+      <img class="thumb" src="{{post.image}}" />
     </a>
   </figure>
-  <div class="mh-loop-content mh-clearfix">
-    <header class="mh-loop-header">
-      <h3 class="entry-title mh-loop-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    </header>
-    <div class="mh-loop-excerpt">
-      <div class="mh-excerpt">
-        <p>
-          {{ post.excerpt | markdownify | strip_html | truncatewords: 25," " }}
-          <a class="mh-excerpt-more" href="{{ post.url }}" title="{{ post.title }}">[&#8230;]</a>
-        </p>
-      </div>
-    </div>
-  </div>
+  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+  <h4>
+    <a class="post-link" href="{{ post.url | relative_url }}"> {{ post.title | escape }} </a>
+    <span class="post-meta">{{ post.date | date: date_format }}</span>
+  </h4>
+  {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
 </article>
