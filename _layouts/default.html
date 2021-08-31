@@ -3,7 +3,7 @@
 
   {%- include head.html -%}
 
-  {% assign bodyClass = page.body_class %}
+  {% assign bodyClass = page.body_class | default: "page_default" %}
   {% if page.categories contains "woodworking" %}
   {% assign bodyClass = "page_ww" %}
   {% endif %}

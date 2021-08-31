@@ -28,6 +28,7 @@ I recently changed out the main board on my Ender 6 for a BigTreeTech SKR 2 whic
 |**Material:**| Overture PLA+|
 |**Resolution:**| 0.2 mm with a 0.4mm nozzle|
 |**Wall Lines:**| 3|
+|**Supports:**| No|
 |**Infill:**| 15% Cubic |
 
 ### Instructions
