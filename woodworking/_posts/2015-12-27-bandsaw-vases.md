@@ -3,11 +3,7 @@ title: Bandsaw Vases
 date: 2015-12-27T00:10:11+00:00
 author: Mark
 layout: post
-permalink: /woodworking/bandsaw-vases/
 image: /woodworking/images/bandsaw-vases/IMG_1047.jpg
-categories:
-  - Woodworking
-  - Projects
 tags:
   - Bandsaw
   - gift
@@ -18,15 +14,14 @@ I was unable to post any pictures of this project since I was building these ban
 
 <!--more-->
 
-[![-](/woodworking/images/bandsaw-vases/IMG_1049-300x300.jpg){: .alignright}](/woodworking/images/bandsaw-vases/IMG_1049.jpg)
+![-](images/bandsaw-vases/IMG_1049.jpg)
 
 I wanted to make something that challenged me, and since I hate projects involving curves, and for some reason dread using my bandsaw, I decided to make these vases using nothing but my bandsaw and my drum sander.  
-[![-](/woodworking/images/bandsaw-vases/IMG_1048-225x300.jpg){: .alignleft}](/woodworking/images/bandsaw-vases/IMG_1048.jpg)
+![-](images/bandsaw-vases/IMG_1048.jpg)
 
-[![-](/woodworking/images/bandsaw-vases/IMG_1047-300x225.jpg){: .alignright}](/woodworking/images/bandsaw-vases/IMG_1047.jpg)
+![-](images/bandsaw-vases/IMG_1047.jpg)
 
-{:.clearleft}
-They are far from perfect, but for a first time using my [Grizzly bandsaw](/tools/grizzly-g0555-ultimate-bandsaw/) for a real project I think they are ok. The smaller vase is actually made from the waste of the bigger one. It is what was cut out of the bigger one to hollow it out.
+They are far from perfect, but for a first time using my bandsaw for a real project I think they are ok. The smaller vase is actually made from the waste of the bigger one. It is what was cut out of the bigger one to hollow it out.
 
 I had to learn a lot about how to set up and adjust my bandsaw, as well as learn how to do curves smoothly (which I haven&#8217;t perfected yet as you can see). However, the curves got better as I went along. There is definitely a technique to getting them smooth and without jaggy bits (\*_technical term_).
 

@@ -3,11 +3,7 @@ title: Cedar Garden Tote Plan
 date: 2015-06-02T22:49:06+00:00
 author: Mark
 layout: post
-permalink: /woodworking/garden-tote/
 image: /woodworking/images/garden-tote/IMG_7250.jpg
-categories:
-  - Woodworking
-  - Projects
 tags:
   - garden
   - garden tote
@@ -16,10 +12,11 @@ tags:
 
 My wife loves gardening and I love making her things, so this garden tote was a great quick project that gave me something to build and leave her with something she could use when gardening. It was made out of a couple of cedar fence pickets that I bought from [Home Depot](http://www.homedepot.com/p/Alta-Forest-Products-5-8-in-x-3-1-2-in-x-6-ft-Western-Red-Cedar-Flat-Top-Fence-Picket-63006/205757683) for $1.54 each.
 
-[![-](/woodworking/images/garden-tote/IMG_7572-225x300.jpg)](/woodworking/images/garden-tote/IMG_7572.jpg) [![-](/woodworking/images/garden-tote/IMG_7573-225x300.jpg)](/woodworking/images/garden-tote/IMG_7573.jpg)
+![-](images/garden-tote/IMG_7572.jpg)
+![-](images/garden-tote/IMG_7573.jpg)
 
 It was very simple to make and really only had three different sized pieces (plus the handle).  
-[![-](/woodworking/images/garden-tote/Garden-Tote2.jpg)](/woodworking/images/garden-tote/Garden-Tote2.jpg)
+![-](images/garden-tote/Garden-Tote2.jpg)
 
 #### Materials needed for the Garden Tote:
 
@@ -36,11 +33,16 @@ It was very simple to make and really only had three different sized pieces (plu
 
 #### Steps:
 
-1. Cut all the pieces to length as described in the cut list. I rounded off one end of each of the two handle supports for aesthetics [![-](/woodworking/images/garden-tote/Garden-Tote-step-2.jpg)](/woodworking/images/garden-tote/Garden-Tote-step-2.jpg)
-2. Screw the ends onto the long sides making sure you get them square [![-](/woodworking/images/garden-tote/Garden-Tote-step-3.jpg)](/woodworking/images/garden-tote/Garden-Tote-step-3.jpg)
-3. Screw one bottom board onto either end of the box [![-](/woodworking/images/garden-tote/Garden-Tote-step-4.jpg)](/woodworking/images/garden-tote/Garden-Tote-step-4.jpg)
-4. Spread the three remaining bottom pieces out evenly and screw in [![-](/woodworking/images/garden-tote/Garden-Tote-step-5.jpg)](/woodworking/images/garden-tote/Garden-Tote-step-5.jpg)
-5. Attach the two 13&#8243; tall handle side pieces and finally [![-](/woodworking/images/garden-tote/Garden-Tote2.jpg)](/woodworking/images/garden-tote/Garden-Tote2.jpg)
+1. Cut all the pieces to length as described in the cut list. I rounded off one end of each of the two handle supports for aesthetics
+   ![-](images/garden-tote/Garden-Tote-step-2.jpg)
+2. Screw the ends onto the long sides making sure you get them square
+   ![-](images/garden-tote/Garden-Tote-step-3.jpg)
+3. Screw one bottom board onto either end of the box
+   ![-](images/garden-tote/Garden-Tote-step-4.jpg)
+4. Spread the three remaining bottom pieces out evenly and screw in
+   ![-](images/garden-tote/Garden-Tote-step-5.jpg)
+5. Attach the two 13&#8243; tall handle side pieces and finally
+   ![-](images/garden-tote/Garden-Tote2.jpg)
 6. Measure the gap between the two handle sides and cut the dowel to fit. Then screw through the handle supports into the dowel
 
 **Project Type:** Outdoor

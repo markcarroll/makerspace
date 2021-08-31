@@ -12,10 +12,6 @@
 
   .wrapper {
     border-bottom: 5px solid #424242;
-    // border-bottom: 1px solid #e8e8e8;
-
-    // background-color: black;
-    // color: white;
     display: flex;
     justify-content: space-between;
   }
@@ -25,6 +21,10 @@
   padding-top: 0;
   .wrapper {
     padding-top: 30px;
+  }
+
+  img {
+    max-width: 300px;
   }
 }
 

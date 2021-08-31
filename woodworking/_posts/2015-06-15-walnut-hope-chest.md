@@ -3,11 +3,7 @@ title: Walnut Hope Chest
 date: 2015-06-15T20:35:30+00:00
 author: Mark
 layout: post
-permalink: /woodworking/walnut-hope-chest/
 image: /woodworking/images/walnut-hope-chest/Wood-Hope-Chest-Finished-006.jpg
-categories:
-  - Woodworking
-  - Projects
 tags:
   - cherry
   - hope chest
@@ -23,21 +19,23 @@ This was the first time that I used decent hardwood and I have to say, I really 
 
 I assembled it according to the plans and it came out looking great before I even finished it.
 
-[![-](/woodworking/images/walnut-hope-chest/Hope-Chest-002-300x225.jpg)](/woodworking/images/walnut-hope-chest/Hope-Chest-002.jpg) [![-](/woodworking/images/walnut-hope-chest/Hope-Chest-003-300x225.jpg)](/woodworking/images/walnut-hope-chest/Hope-Chest-003.jpg) [![-](/woodworking/images/walnut-hope-chest/Hope-Chest-001-300x225.jpg)](/woodworking/images/walnut-hope-chest/Hope-Chest-001.jpg)
+![-](images/walnut-hope-chest/Hope-Chest-002.jpg)
+![-](images/walnut-hope-chest/Hope-Chest-003.jpg)
+![-](images/walnut-hope-chest/Hope-Chest-001.jpg)
 
 To finish it I used a few coats of wipe on poly.
 
 Here is the finished result:
 
-[![Wooden hope chest made out of Walnut and Cherry](/woodworking/images/walnut-hope-chest/Wood-Hope-Chest-Finished-006-1024x768.jpg)](/woodworking/images/walnut-hope-chest/Wood-Hope-Chest-Finished-006.jpg)
+![Wooden hope chest made out of Walnut and Cherry](images/walnut-hope-chest/Wood-Hope-Chest-Finished-006.jpg)
 
-[![-](/woodworking/images/walnut-hope-chest/Wood-Hope-Chest-Finished-005-1024x768.jpg)](/woodworking/images/walnut-hope-chest/Wood-Hope-Chest-Finished-005.jpg)
+![-](images/walnut-hope-chest/Wood-Hope-Chest-Finished-005.jpg)
 
-[![-](/woodworking/images/walnut-hope-chest/Wood-Hope-Chest-Finished-001-1024x768.jpg)](/woodworking/images/walnut-hope-chest/Wood-Hope-Chest-Finished-001.jpg)
+![-](images/walnut-hope-chest/Wood-Hope-Chest-Finished-001.jpg)
 
-[![-](/woodworking/images/walnut-hope-chest/Wood-Hope-Chest-Finished-008-225x300.jpg)](/woodworking/images/walnut-hope-chest/Wood-Hope-Chest-Finished-008.jpg)
+![-](images/walnut-hope-chest/Wood-Hope-Chest-Finished-008.jpg)
 
-[![-](/woodworking/images/walnut-hope-chest/Wood-Hope-Chest-Finished-009-1024x768.jpg)](/woodworking/images/walnut-hope-chest/Wood-Hope-Chest-Finished-009.jpg)
+![-](images/walnut-hope-chest/Wood-Hope-Chest-Finished-009.jpg)
 
 I think it came out pretty well and my wife absolutely loves it.
 

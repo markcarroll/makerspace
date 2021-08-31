@@ -3,22 +3,20 @@ title: DeWalt DW735X Thickness Planer Review
 date: 2015-05-26T08:41:56+00:00
 author: Mark
 layout: post
-permalink: /tools/dewalt-dw735-thickness-planer/
 image: /woodworking/images/dewalt-dw735-thickness-planer/IMG_8079.jpg
-categories:
-  - tools
 tags:
+  - tools
   - planer
   - tool review
 ---
 
 This is my new [DeWalt DW735](https://amzn.to/3bvIr5w) thickness planer.
 
-![DeWalt 735X Planer](/woodworking/images/dewalt-dw735-thickness-planer/IMG_8079-300x225.jpg)
+![DeWalt 735X Planer](images/dewalt-dw735-thickness-planer/IMG_8079-300x225.jpg)
 
-![DeWalt 735X Planer](/woodworking/images/dewalt-dw735-thickness-planer/IMG_8078-300x225.jpg)
+![DeWalt 735X Planer](images/dewalt-dw735-thickness-planer/IMG_8078-300x225.jpg)
 
-![DeWalt 735X Planer](/woodworking/images/dewalt-dw735-thickness-planer/IMG_8081-300x225.jpg)
+![DeWalt 735X Planer](images/dewalt-dw735-thickness-planer/IMG_8081-300x225.jpg)
 [](https://amzn.to/3bvIr5w)
 
 It took me weeks of research to decide on getting this one. My choices were:

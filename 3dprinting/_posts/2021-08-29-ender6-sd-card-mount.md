@@ -8,11 +8,27 @@ tags: [3D_Printing, Ender_6]
 summary:
 ---
 
+![Card Reader](images/ender6-sd-card-mount/ender6-sd-card-mount-1.jpeg)
+![Reader Mount](images/ender6-sd-card-mount/ender6-sd-card-mount-2.jpeg)
+
 I recently changed out the main board on my Ender 6 for a BigTreeTech SKR 2 which had it's tribulations, but one major change was that there was nowhere to plug in the stock SD card reader any more. The SKR 2 has a Micro SD reader on the board, so I bought an SD card extender and designed a mount that enabled me to replace the stock reader with the new one.
 
 ### Parts List
 
 - SD card extender [_(Amazon)_](https://amzn.to/3jrmJ83)
+
+### Files
+
+- [Ender 6 SD Reader mounting plate STL file](stls/ender6-sd-card-mount/Ender 6 SD Reader mounting plate.zip)
+
+### Print Settings
+
+|**Printer:**| Creality CR-10 V3|
+|**Slicer:**| Cura|
+|**Material:**| Overture PLA+|
+|**Resolution:**| 0.2 mm with a 0.4mm nozzle|
+|**Wall Lines:**| 3|
+|**Infill:**| 15% Cubic |
 
 ### Instructions
 
@@ -26,3 +42,7 @@ Print the base mount attached here then follow these steps:
 6. Slide the new SD reader into the newly printed base mount
 7. Using the screws you saved from step #2 attach the new mount
 8. Replace the cover and test for fit. You may need to adjust the screws a little to get it lined up with the slot.
+
+![Reader Mount](images/ender6-sd-card-mount/ender6-sd-card-mount-3.jpeg)
+![Reader Mount](images/ender6-sd-card-mount/ender6-sd-card-mount-4.jpeg)
+![Reader Mount](images/ender6-sd-card-mount/ender6-sd-card-mount-5.jpeg)
