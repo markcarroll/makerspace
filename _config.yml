@@ -29,6 +29,7 @@ instagram_username: markswoodprojects
 github_username: markcarroll
 
 permalink: /:categories/:title:output_ext
+
 show_excerpts: false
 
 # Build settings

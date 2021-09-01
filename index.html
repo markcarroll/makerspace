@@ -3,17 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Home
+title: Mark's Maker Space
 ---
 
-<!-- <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-{%- if site.posts.size > 0 -%}
-
--->
 {% assign items_grouped = site.posts | group_by: 'categories' %}
 {% for group in items_grouped %}
 {% assign groupname = group.name | remove: '"' | remove: ']' | remove: '[' %}
@@ -42,6 +34,6 @@ title: Home
 
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 
-{%- endif -%} -->
+-->
 
 </div>

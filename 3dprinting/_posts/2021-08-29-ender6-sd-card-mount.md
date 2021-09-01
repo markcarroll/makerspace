@@ -47,3 +47,5 @@ Print the base mount attached here then follow these steps:
 ![Reader Mount](images/ender6-sd-card-mount/ender6-sd-card-mount-3.jpeg)
 ![Reader Mount](images/ender6-sd-card-mount/ender6-sd-card-mount-4.jpeg)
 ![Reader Mount](images/ender6-sd-card-mount/ender6-sd-card-mount-5.jpeg)
+
+## [Post a comment](https://www.reddit.com/r/MarksMakerSpace/comments/pfz4su/ender_6_sd_card_reader_mount/)
