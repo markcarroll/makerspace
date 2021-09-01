@@ -45,7 +45,7 @@ I built and tested out the shelf, but it must have had not been perfectly square
 
 Now for the best bit of the project -- turning the rough cut walnut lumber into a beautiful top... for people to sit on when they put on their shoes.
 
-![Storage Bench](images/shoe-storage-bench/Shoe-Storage-Bench-7-e1539576716116.jpeg)
+![Storage Bench](images/shoe-storage-bench/Shoe-Storage-Bench-7.jpeg)
 ![Storage Bench](images/shoe-storage-bench/Shoe-Storage-Bench-8.jpeg)
 
 These pieces did not look all that great before they were milled, but I had a feeling they would reveal themselves to be worth of our hallway.

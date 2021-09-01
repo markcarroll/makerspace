@@ -3,14 +3,16 @@
 
   {%- include head.html -%}
 
-  {% assign bodyClass = page.body_class | default: "page_default" %}
   {% if page.categories contains "woodworking" %}
-  {% assign bodyClass = "page_ww" %}
+    {% assign defaultbodyClass = "page_ww" %}
+  {% else %}
+    {% assign defaultbodyClass = "page_default" %}
   {% endif %}
+  {% assign bodyClass = page.body_class | default: defaultbodyClass %}
 
   <body class={{ bodyClass }}>
     {%- include header.html -%}
-
+    
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}

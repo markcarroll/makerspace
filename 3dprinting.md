@@ -7,7 +7,7 @@ permalink: /3dprinting/
 class: post-summary
 ---
 
-{% for post in site.categories.3dprinting %}
+{% for post in site.categories["3dprinting"] %}
 
 {% include preview.html %}
 

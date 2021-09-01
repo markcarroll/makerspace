@@ -33,6 +33,13 @@ show_excerpts: false
 
 # Build settings
 # theme: minima
+remote_theme: jekyll/minima
+minima:
+  skin: classic
+header_pages:
+  - 3dprinting.md
+  - woodworking.md
+  # - about.md
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

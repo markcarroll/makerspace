@@ -1,3 +1,28 @@
+// $on-palm: 600px !default;
+// $on-laptop: 800px !default;
+
+// // Use media queries like this:
+// // @include media-query($on-palm) {
+// //   .wrapper {
+// //     padding-right: $spacing-unit / 2;
+// //     padding-left: $spacing-unit / 2;
+// //   }
+// // }
+// @mixin media-query($device) {
+//   @media screen and (max-width: $device) {
+//     @content;
+//   }
+// }
+// $base-font-size: 16px !default;
+// @mixin relative-font-size($ratio) {
+//   font-size: $base-font-size * $ratio;
+// }
+%clearfix:after {
+  content: none;
+  display: none;
+  clear: both;
+}
+
 .page_ww {
   background-image: url("/woodworking/images/wood-3212803_1920.jpg");
   background-position: left top;
@@ -24,7 +49,7 @@
     }
 
     .site-nav .page-link {
-      @media screen and (max-width: 600px) {
+      @include media-query(600px) {
         color: #111;
       }
     }
@@ -89,4 +114,32 @@
 
 .post img {
   max-width: 300px;
+}
+
+.site-title {
+  float: unset;
+}
+
+.site-nav {
+  float: unset;
+
+  @include media-query($on-palm) {
+    label[for="nav-trigger"] {
+      float: unset;
+      margin-left: auto;
+    }
+  }
+}
+
+.post-link {
+  @include relative-font-size(1.4);
+  font-weight: bold;
+}
+
+.post-title {
+  @include relative-font-size(2);
+
+  @include media-query($on-laptop) {
+    @include relative-font-size(2);
+  }
 }
