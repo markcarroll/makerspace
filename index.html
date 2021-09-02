@@ -8,32 +8,26 @@ title: Mark's Maker Space
 
 {% assign items_grouped = site.posts | group_by: 'categories' %}
 {% for group in items_grouped %}
-{% assign groupname = group.name | remove: '"' | remove: ']' | remove: '[' %}
+  {% assign groupname = group.name | remove: '"' | remove: ']' | remove: '[' %}
 
-<h2 class="post-list-heading">
-  {% case groupname %}
-  {% when "3dprinting" %}
-     3D Printing
-  {% when "woodworking" %}
-     Woodworking
-  {% else %}
-     Other Posts
-{% endcase %}
-</h2>
-<div class="post-summary"> 
+  <h2 class="post-list-heading">
+    {% case groupname %}
+    {% when "3dprinting" %}
+      3D Printing
+    {% when "woodworking" %}
+      Woodworking
+    {% else %}
+      Other Posts
+    {% endcase %}
+  </h2>
+  <div class="post-summary"> 
     {%- for post in group.items -%}
 
-    {% include preview.html %}
+      {% include preview.html %}
 
     {%- endfor -%}
     </div>
 
-    {% endfor %}
-
-<!-- 
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-
--->
+  {% endfor %}
 
 </div>
