@@ -9,13 +9,14 @@ summary:
 ---
 
 ![Card Reader](images/ender6-sd-card-mount/ender6-sd-card-mount-1.jpeg)
-![Reader Mount](images/ender6-sd-card-mount/ender6-sd-card-mount-2.jpeg)
+![Reader Mount](images/ender6-sd-card-mount/ender6-sd-card-mount-5.jpeg)
 
-I recently changed out the main board on my Ender 6 for a BigTreeTech SKR 2 which had it's tribulations, but one major change was that there was nowhere to plug in the stock SD card reader any more. The SKR 2 has a Micro SD reader on the board, so I bought an SD card extender and designed a mount that enabled me to replace the stock reader with the new one.
+I recently changed out the main board on my [Ender 6](https://amzn.to/3DFuYpe) for a [BigTreeTech SKR 2](https://amzn.to/3DEARTB) in order to replace the noisy drivers on the stock board with some silent [TMC2209s](https://amzn.to/3gUbLGH). The process had it's tribulations, but one major change was that there was nowhere to plug in the stock SD card reader any more. The SKR 2 has a Micro SD reader on the board, so I bought an SD card extender and designed a mount that enabled me to replace the stock reader with the new one.
 
 ### Parts List
 
 - SD card extender [_(Amazon)_](https://amzn.to/3jrmJ83)
+- BigTreeTech SKR 2 board (or other with onboard SD slot) [_(Amazon)_](https://amzn.to/3DEARTB)
 
 ### Files
 
@@ -23,7 +24,7 @@ I recently changed out the main board on my Ender 6 for a BigTreeTech SKR 2 whic
 
 ### Print Settings
 
-|**Printer:**| Creality CR-10 V3|
+|**Printer:**| Creality CR-10 V3 (well the Ender 6 was in pieces 😜)|
 |**Slicer:**| Cura|
 |**Material:**| Overture PLA+|
 |**Resolution:**| 0.2 mm with a 0.4mm nozzle|
@@ -46,6 +47,5 @@ Print the base mount attached here then follow these steps:
 
 ![Reader Mount](images/ender6-sd-card-mount/ender6-sd-card-mount-3.jpeg)
 ![Reader Mount](images/ender6-sd-card-mount/ender6-sd-card-mount-4.jpeg)
-![Reader Mount](images/ender6-sd-card-mount/ender6-sd-card-mount-5.jpeg)
 
 ## [Post a comment](https://www.reddit.com/r/MarksMakerSpace/comments/pfz4su/ender_6_sd_card_reader_mount/)
