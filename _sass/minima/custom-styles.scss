@@ -87,7 +87,7 @@
     U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-%clearfix:after {
+.clearfix:after {
   content: none;
   display: none;
   clear: both;
@@ -186,6 +186,7 @@ h6 {
   }
   .thumb {
     max-width: 100%;
+    max-height: 175px;
     object-fit: cover;
   }
   @include media-query(600px) {
@@ -212,6 +213,17 @@ h6 {
   }
   .feature-image img {
     max-width: 550px;
+  }
+  .screenshot {
+    // width: 25%;
+    // box-shadow: 8px 9px rgb(222, 222, 222);
+    border: solid 1px rgb(222, 222, 222);
+    margin: 10px 10px 10px 0;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 7px 0px;
+    max-width: 100%;
+  }
+  li {
+    margin-bottom: 10px;
   }
 }
 

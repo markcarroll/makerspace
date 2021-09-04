@@ -4,7 +4,7 @@ title: Ender 6 SD Card Reader Mount
 date: 2021-08-29 21:09
 image: /3dprinting/images/ender6-sd-card-mount/ender6-sd-card-mount-2.jpeg
 author: Mark
-tags: [3D_Printing, Ender_6]
+tags: [3dprinting, ender6]
 summary:
 ---
 
@@ -20,7 +20,7 @@ I recently changed out the main board on my [Ender 6](https://amzn.to/3DFuYpe) f
 
 ### Files
 
-- [Ender 6 SD Reader mounting plate STL file](stls/ender6-sd-card-mount/Ender 6 SD Reader mounting plate.zip)
+- [Ender 6 SD Reader mounting plate STL file](files/ender6-sd-card-mount/Ender 6 SD Reader mounting plate.zip)
 
 ### Print Settings
 
