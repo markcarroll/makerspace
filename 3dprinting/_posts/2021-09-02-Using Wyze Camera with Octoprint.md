@@ -40,3 +40,5 @@ Wyze Cam V2's are awesome web cameras that could be found for very little money 
 And that should be it.
 
 For more information, check out the OpenMiko GitHub page: [https://github.com/openmiko/openmiko](https://github.com/openmiko/openmiko)
+
+#### [Click here to comment or give me feedback](https://www.reddit.com/r/MarksMakerSpace/comments/phlpx4/using_a_wyze_camera_with_octoprint/)
