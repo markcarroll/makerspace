@@ -9,7 +9,11 @@ image: /3dprinting/images/2021-09-08-buck-converter-box/buck converter box.jpg
 summary:
 ---
 
-This is a simple box with a snap-fit lid for a HiLetGo DC to DC Buck Converter to allow it to fit into a 3D printer case without coming in contact with the metal surround. In my case I wanted to run a [12V Gelid 40mm silent fan](https://amzn.to/3E0vgHq) off a [Ender 6's](https://amzn.to/3zVQq7e) 24V power supply. The Gelid fan is so much quieter than the stock fan this was absolutely worth the small amount of effort required. However, I needed a safe way to mount the buck converter so this box is what I came up with. The lid is a tight snap fit so make sure you have your printer well tuned (or maybe print the list at 99%). The window in the lid allows you to see the LEDs on the buck converter while it is on.
+This is a simple box with a snap-fit lid for a [HiLetGo DC to DC Buck Converter](https://amzn.to/3BRNHw4) to allow it to fit into a 3D printer case without coming in contact with the metal surround.
+
+In my case I wanted to run a [12V Gelid 40mm silent fan](https://amzn.to/3E0vgHq) off a [Ender 6's](https://amzn.to/3zVQq7e) 24V power supply. The Gelid fan is so much quieter than the stock fan this was absolutely worth the small amount of effort required. At first the idea of having to use a buck converter made me hesitate. I had not done any soldering in years and had never used a buck converter before. These ones I found on Amazon were great though, no soldering needed and the display allowed for no ambiguity about the voltage being passed through. Also, at only around $4 each it seemed like it was worth a try.
+
+However, I needed a safe way to mount the buck converter so this box is what I came up with. The lid is a tight snap fit so make sure you have your printer well tuned (or maybe print the list at 99%). The window in the lid allows you to see the LEDs on the buck converter while it is on.
 
 ![Buck converter box](/3dprinting/images/2021-09-08-buck-converter-box/buck converter box 2.png)
 ![Buck converter box](/3dprinting/images/2021-09-08-buck-converter-box/buck converter box 3.png)
@@ -24,7 +28,7 @@ This is a simple box with a snap-fit lid for a HiLetGo DC to DC Buck Converter t
 
 ### Files
 
-- [Buck Converter Box STL file](files/2021-09-08-buck-converter-box/Buck Converter Box v3.stl)
+- [Buck Converter Box STL file <i class='fa fa-download'></i>](files/2021-09-08-buck-converter-box/Buck Converter Box v3.stl)
 
 ### Print Settings
 
@@ -57,3 +61,5 @@ That's it. This is what mine looks like:
 ![Ender 6 guts](/3dprinting/images/2021-09-08-buck-converter-box/ender-6-guts.jpg){: style="max-width:800px" }
 
 Happy Printing.
+
+#### [Post a comment](https://www.reddit.com/r/MarksMakerSpace/comments/pkrjpe/buck_converter_box/)
