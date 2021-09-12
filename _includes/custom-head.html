@@ -4,3 +4,4 @@
   type="text/css"
   media="all"
 />
+{% if site.google_tag_manager and jekyll.environment == 'production' %} {% include analytics-head.html %} {% endif %}

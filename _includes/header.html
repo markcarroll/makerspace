@@ -1,3 +1,5 @@
+{% if site.google_tag_manager and jekyll.environment == 'production' %} {% include analytics-body.html %} {% endif %}
+
 <header class="site-header">
 
   <div class="wrapper">
