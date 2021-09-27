@@ -1,8 +1,6 @@
 <article>
   <figure>
-    <a href="{{ post.url }}">
-      <img class="thumb" src="{{post.image}}" />
-    </a>
+<a href="{{ post.url }}"><img class="thumb" src="{{ post.image }}" /></a>
   </figure>
   {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
   <h4>
