@@ -5,7 +5,7 @@ date: 2021-09-08 21:33
 category: 3dprinting
 author: Mark
 tags: [3dprinting]
-image: /3dprinting/images/2021-09-08-buck-converter-box/buck converter box.jpg
+image: /3dprinting/images/buck-converter-box/buck converter box.jpg
 summary:
 ---
 
@@ -15,8 +15,8 @@ In my case I wanted to run a [12V Gelid 40mm silent fan](https://amzn.to/3E0vgHq
 
 However, I needed a safe way to mount the buck converter so this box is what I came up with. The lid is a tight snap fit so make sure you have your printer well tuned (or maybe print the list at 99%). The window in the lid allows you to see the LEDs on the buck converter while it is on.
 
-![Buck converter box](/3dprinting/images/2021-09-08-buck-converter-box/buck converter box 2.png)
-![Buck converter box](/3dprinting/images/2021-09-08-buck-converter-box/buck converter box 3.png)
+![Buck converter box](/3dprinting/images/buck-converter-box/buck converter box 2.png)
+![Buck converter box](/3dprinting/images/buck-converter-box/buck converter box 3.png)
 
   <iframe style="width:120px;height:240px;float:right" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=mwp-14-20&language=en_US&marketplace=amazon&region=US&placement=B00BF3S83C&asins=B00BF3S83C&linkId=a9d354e99a26ba872450ec9ee0752d36&show_border=true&link_opens_in_new_window=true"></iframe>
   <iframe style="width:120px;height:240px;float:right" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=mwp-14-20&language=en_US&marketplace=amazon&region=US&placement=B00LSEBYHU&asins=B00LSEBYHU&linkId=4735e25ee0262a5704efd8f9b5430e87&show_border=true&link_opens_in_new_window=true"></iframe>
@@ -28,7 +28,7 @@ However, I needed a safe way to mount the buck converter so this box is what I c
 
 ### Files
 
-- [Buck Converter Box STL file <i class='fa fa-download'></i>](files/2021-09-08-buck-converter-box/Buck Converter Box v3.stl)
+- [Buck Converter Box STL file <i class='fa fa-download'></i>](files/buck-converter-box/Buck Converter Box v3.stl)
 
 ### Print Settings
 
@@ -58,7 +58,7 @@ Just make sure you have set the buck converter to the correct voltage before wir
 
 That's it. This is what mine looks like:
 
-![Ender 6 guts](/3dprinting/images/2021-09-08-buck-converter-box/ender-6-guts.jpg){: style="max-width:800px" }
+![Ender 6 guts](/3dprinting/images/buck-converter-box/ender-6-guts.jpg){: style="max-width:800px" }
 
 Happy Printing.
 
