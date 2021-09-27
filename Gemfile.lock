@@ -284,6 +284,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.12)
   jekyll-include-cache
   jekyll-seo-tag
+  kramdown-parser-gfm
   minima!
   tzinfo (~> 1.2)
   tzinfo-data

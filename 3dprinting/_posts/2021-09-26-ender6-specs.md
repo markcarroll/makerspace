@@ -13,19 +13,17 @@ This is a compilation of the Ender 6 specifications that I have been able to fin
 
 ## Overall Specs
 
-|                     |                                  |
-| ------------------- | -------------------------------- |
 | Modeling Technology | FDM（Fused Deposition Modeling） |
-| Print Size          | 250x250x400mm                    |
-| Print Mode          | SD card                          |
-| Resolution          | ±0.1mm                           |
-| Supported OS        | MAC, LINUX, WIN7/8/10            |
-| File Formats        | STL, 3MF, AMF, OBJ, Gcode        |
-| Printing Material   | PLA/TPU/Wood/Carbon Fiber, etc.  |
-| Machine Size        | 495x495x650mm                    |
-| Product Weight      | 22KG                             |
-| Touch Screen        | 4.3 inch                         |
-| G.W.                | 27kg                             |
+| Print Size | 250x250x400mm |
+| Print Mode | SD card |
+| Resolution | ±0.1mm |
+| Supported OS | MAC, LINUX, WIN7/8/10 |
+| File Formats | STL, 3MF, AMF, OBJ, Gcode |
+| Printing Material | PLA/TPU/Wood/Carbon Fiber, etc. |
+| Machine Size | 495x495x650mm |
+| Product Weight | 22KG |
+| Touch Screen | 4.3 inch |
+| G.W. | 27kg |
 
 ## Stepper Motors
 
@@ -75,4 +73,4 @@ Long story short, here is the datasheet for the TMC2209 drivers: [_TMC2209 datas
 
 I will add more specs as I come across them.
 
-#### Comments here
+#### [Post Comments here](https://www.reddit.com/r/MarksMakerSpace/comments/pwagl1/ender_6_specs_and_datasheets/)
