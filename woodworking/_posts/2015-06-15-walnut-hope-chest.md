@@ -5,10 +5,7 @@ author: Mark
 layout: post
 image: /woodworking/images/walnut-hope-chest/Wood-Hope-Chest-Finished-006.jpg
 tags:
-  - cherry
-  - hope chest
-  - walnut
-  - wood hope chest
+  - Furniture
 ---
 
 I made this walnut and cherry hope chest a few years back. &nbsp; I used [this plan](https://www.woodmagazine.com/project-plans/furniture/chests/heirloom-hope-chest-downloadable-plan) from Wood Magazine.

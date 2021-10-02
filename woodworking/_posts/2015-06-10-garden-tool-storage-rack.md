@@ -9,9 +9,7 @@ post_views_count:
   - "0"
 image: /woodworking/images/garden-tool-storage-rack/IMG_6540.jpg
 tags:
-  - garage
-  - garden
-  - garden tool storage
+  - Outdoor Project
 ---
 
 I needed some way to hang up all our garden tools so came up with this not very fancy, but quite useful garden tool storage rack that I built out of one piece of regular 2&#215;6 lumber.

@@ -19,19 +19,25 @@ layout: default
         <span class="p-author h-card" itemprop="name">{{ author }}</span></span
       >
       {%- if forloop.last == false %}, {% endif -%} {% endfor %} {%- endif -%}
-      <span class="entry-meta-categories"></span>
-        • <i class="fa fa-folder-open-o"></i>
+      <span class="entry-meta-categories"></span> • <i class="fa fa-folder-open-o"></i>
         {% if post %} {% assign categories = post.categories %} {% else %} {% assign categories = page.categories %} {%
         endif %} {% for category in categories %}
         <a href="{{site.baseurl}}/{{category|slugize}}/">{{category| capitalize}}</a>
         {% unless forloop.last %}&nbsp;{% endunless %} {% endfor %}
-      </span>
+        {% if post %} {% assign tags = post.tags %} {% else %} {% assign tags = page.tags %} {%
+          endif %}
+          {% if tags %}&nbsp; <i class="fa fa-tags"></i>&nbsp;{% endif %}
+          {%- for tag in tags -%}<a href="{{site.baseurl}}/{{tag|slugize}}/">{{tag}}</a>
+          {%- unless forloop.last -%},&nbsp;{%- endunless -%} {%- endfor -%}
+        </span>
     </p>
   </header>
 
+  {% if page.image and page.noFeatureImage != true %}
   <figure class="feature-image">
     <img src="{{ page.image }}" alt="{{ page.title }}" title="{{ page.title }}" />
   </figure>
+  {% endif %}
   <div class="post-content e-content" itemprop="articleBody">{{ content }}</div>
 
   {%- if site.disqus.shortname -%} {%- include disqus_comments.html -%} {%- endif -%}

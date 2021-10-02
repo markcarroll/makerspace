@@ -5,9 +5,7 @@ author: Mark
 layout: post
 image: /woodworking/images/bandsaw-vases/IMG_1047.jpg
 tags:
-  - Bandsaw
-  - gift
-  - vase
+  - Gift
 ---
 
 I was unable to post any pictures of this project since I was building these bandsaw vases as a Christmas gift to my wife. However they are finished now and she loves them, so now I can post&#8230;

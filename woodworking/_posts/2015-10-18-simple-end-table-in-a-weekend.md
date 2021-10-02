@@ -5,10 +5,7 @@ author: Mark
 layout: post
 image: /woodworking/images/simple-end-table-in-a-weekend/End-Table-10.jpg
 tags:
-  - DIY
-  - easy
-  - End Table
-  - weekend project
+  - Furniture
 ---
 
 This weekend I put together this end table. It is 2 feet high and measures 11&#8243; by 18&#8243;. The wood cost around $10 from Home Depot and it only took a few hours to build.&nbsp;I needed something narrow but still useful to&nbsp;go in our bathroom. I think this worked out perfectly, and after staining it black, it looks just like what you get from IKEA.

@@ -4,7 +4,11 @@ title: Buck Converter Box
 date: 2021-09-08 21:33
 category: 3dprinting
 author: Mark
-tags: [3dprinting]
+tags:
+  - Ender 6
+  - STL
+  - Models
+  - Prints
 image: /3dprinting/images/buck-converter-box/buck converter box.jpg
 summary:
 ---

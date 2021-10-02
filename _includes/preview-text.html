@@ -1,0 +1,13 @@
+<article>
+  <h4 markdown="0">
+    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+
+<p class="post-meta">
+  {{ post.date | date: date_format }} • <i class="fa fa-tags"></i>&nbsp; {%- for tag in post.tags -%}
+  <a href="{{ site.baseurl }}/{{ tag|slugize }}/">{{ tag }}</a>{%- unless forloop.last -%},&nbsp;{%- endunless -%}
+  {%- endfor -%}
+</p>
+</h4>
+
+  <p>{%- if post.summary -%} {{ post.summary }} {%- endif -%}</p>
+</article>

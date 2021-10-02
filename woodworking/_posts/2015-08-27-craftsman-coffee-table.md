@@ -8,9 +8,7 @@ post_views_count:
   - "0"
 image: /woodworking/images/craftsman-coffee-table/Coffee-Table-6-of-6.jpg
 tags:
-  - coffee table
-  - craftsman
-  - table
+  - Furniture
 ---
 
 This is a Craftsman style coffee table I built a few years back. It has survived very well and still the center of our living room. It is made from poplar with a cherry stain applied.

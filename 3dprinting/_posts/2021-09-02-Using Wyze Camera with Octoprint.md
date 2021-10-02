@@ -4,7 +4,8 @@ title: Using a Wyze Camera with Octoprint
 date: 2021-09-02 11:46
 category: 3dprinting
 author: Mark
-tags: [3dprinting, octoprint]
+tags:
+  - Octoprint
 image: /3dprinting/images/Using-Wyze-Cam-with-Octoprint/wyzecam_v2.jpg
 summary:
 ---

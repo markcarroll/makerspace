@@ -5,9 +5,7 @@ author: Mark
 layout: post
 image: /woodworking/images/garden-tote/IMG_7250.jpg
 tags:
-  - garden
-  - garden tote
-  - outdoor
+  - Outdoor Project
 ---
 
 My wife loves gardening and I love making her things, so this garden tote was a great quick project that gave me something to build and leave her with something she could use when gardening. It was made out of a couple of cedar fence pickets that I bought from [Home Depot](http://www.homedepot.com/p/Alta-Forest-Products-5-8-in-x-3-1-2-in-x-6-ft-Western-Red-Cedar-Flat-Top-Fence-Picket-63006/205757683) for $1.54 each.

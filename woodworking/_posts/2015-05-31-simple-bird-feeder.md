@@ -9,9 +9,7 @@ post_views_count:
   - "0"
 image: /woodworking/images/simple-bird-feeder/IMG_7157.jpg
 tags:
-  - bird house
-  - easy
-  - weekend project
+  - Outdoor Project
 ---
 
 With summer coming, my wife asked me if I could build her a bird feeder to hang in view of our kitchen window.  I made this one out of one single 5½&#8221; cedar fence board, so it only cost me around $2

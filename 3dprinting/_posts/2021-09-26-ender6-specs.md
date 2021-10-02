@@ -5,7 +5,8 @@ date: 2021-09-26 08:21
 category: 3dprinting
 author: Mark
 image: /3dprinting/images/ender6-specs/65f565cf-3daa-400a-805b-56b6722f66a2.jpeg
-tags: [3dprinting, ender6]
+tags:
+  - Ender 6
 summary: Compilation of specs for Ender 6
 ---
 

@@ -5,6 +5,9 @@ date: 2016-01-31T21:32:20+00:00
 author: Mark
 layout: post
 image: /woodworking/images/doctor-who-tardis-bird-feeder/IMG_1641-2.jpg
+tags:
+  - Outdoor Project
+  - Gift
 ---
 
 Yes, you read that correctly. My wife loves Doctor Who and since she asked me back in early December if I could build her another [bird feeder](/projects/simple-bird-feeder/), I thought that I would build her something special &#8211; a TARDIS bird feeder.
