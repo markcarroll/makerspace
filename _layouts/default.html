@@ -2,13 +2,15 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {%- include head.html -%}
-
+  <!-- {{page.categories}} -->
   {% if page.categories contains "woodworking" %}
     {% assign defaultbodyClass = "page_ww" %}
-  {% else if page.categories contains "code" %}
+  {% else %}
+  {% if page.categories contains "code" %}
     {% assign defaultbodyClass = "page_code" %}
   {% else %}
     {% assign defaultbodyClass = "page_default" %}
+  {% endif %}
   {% endif %}
   {% assign bodyClass = page.body_class | default: defaultbodyClass %}
 
