@@ -18,3 +18,9 @@ When plugging a Raspberry Pi into a 3D printer, unless the board is specifically
 The solution is to use a [power blocker USB adapter](https://amzn.to/3DbzElN). They can be found on [Amazon](https://amzn.to/3DbzElN) for very little money and are well worth the expense.
 
 There are posts tell you to put electrical tape on the 5V line in the USB plug, but that can come off or get stuck in the socket. Using an adapter is the best solution.
+
+The adapter is very simple, you can even see from the picture it passes the two middle stripes, which are the data lines through to the other connector, but breaks the two outer ones, which are the power lines. So basically disconnecting the USB power lines from whatever is plugged in. Very simple and very effective.
+
+Hope this helps someone out.
+
+#### [Post Comments here](https://www.reddit.com/r/MarksMakerSpace/comments/q1bh3u/safely_connecting_a_raspberry_pi_to_a_3d_printer/)
