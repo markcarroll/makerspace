@@ -24,10 +24,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   3D Printing, 3D Modeling, Coding, Woodworking and anything else that takes my fancy
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://marksmakerspace.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: markoncode
 instagram_username: markswoodprojects
-github_username: markcarroll
 google_tag_manager: GTM-W9MRP88
+google_analytics: UA-4098886-2
 
 permalink: /:categories/:title:output_ext
 
@@ -38,6 +37,37 @@ theme: minima
 remote_theme: jekyll/minima
 minima:
   skin: classic
+  social_links:
+    twitter: markoncode
+    github: markcarroll
+    facebook: markswoodprojects
+    instagram: markswoodprojects
+    reddit: marksmakerspace
+    #   stackoverflow: "11111"
+    #   dribbble: jekyll
+    #   flickr: jekyll
+  #   linkedin: jekyll
+  #   pinterest: jekyll
+  #   telegram: jekyll
+  #   microdotblog: jekyll
+  #   keybase: jekyll
+
+  #   mastodon:
+  #    - username: jekyll
+  #      instance: example.com
+  #    - username: jekyll2
+  #      instance: example.com
+
+  #   gitlab:
+  #    - username: jekyll
+  #      instance: example.com
+  #    - username: jekyll2
+  #      instance: example.com
+
+  #   youtube: jekyll
+  #   youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+  #   youtube_channel_name: CloudCannon
+
 header_pages:
   - 3dprinting.md
   - woodworking.md
