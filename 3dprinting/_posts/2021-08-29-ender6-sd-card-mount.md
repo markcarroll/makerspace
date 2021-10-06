@@ -9,7 +9,7 @@ tags:
   - STL
   - Models
   - Prints
-summary:
+summary: Mounting plate to replace the built in SD card reader with one that works with aftermarket motherboards
 ---
 
 ![Card Reader](images/ender6-sd-card-mount/ender6-sd-card-mount-1.jpeg)
