@@ -1,102 +1,67 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# Site
 
-title: Mark's Maker Space
-# email: mark@marksmakerspace.com
-description: >- # this means to ignore newlines until "baseurl:"
-  3D Printing, 3D Modeling, Coding, Woodworking and anything else that takes my fancy
+name: "Mark's Maker Space"
+title: "Mark's Maker Space"
+description: "3D Printing, 3D Modeling, Coding, Woodworking and generally making stuff"
+logo: "assets/images/logo.png"
+favicon: "assets/images/logo.png"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://marksmakerspace.com" # the base hostname & protocol for your site, e.g. http://example.com
-instagram_username: markswoodprojects
+
 google_tag_manager: GTM-W9MRP88
 google_analytics: UA-4098886-2
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
 
 permalink: /:categories/:title:output_ext
 
-show_excerpts: false
-
-# Build settings
-theme: minima
-remote_theme: jekyll/minima
-minima:
-  skin: classic
-  social_links:
+# Authors
+authors:
+  mark:
+    name: "Mark Carroll"
+    display_name: Mark
+    avatar: "/assets/images/avatar.jpeg"
+    email: mark@marksmakerspace.com
+    web: https://www.marksmakerspace.com
     twitter: marksmakerspace
-    github: markcarroll
-    facebook: markswoodprojects
-    instagram: markswoodprojects
-    reddit: marksmakerspace
-    #   stackoverflow: "11111"
-    #   dribbble: jekyll
-    #   flickr: jekyll
-  #   linkedin: jekyll
-  #   pinterest: jekyll
-  #   telegram: jekyll
-  #   microdotblog: jekyll
-  #   keybase: jekyll
+    instagram: marksmakerspace
+    description: "Making stuff with technology...<br>
+    Code, 3D Printing, Woodworking"
 
-  #   mastodon:
-  #    - username: jekyll
-  #      instance: example.com
-  #    - username: jekyll2
-  #      instance: example.com
-
-  #   gitlab:
-  #    - username: jekyll
-  #      instance: example.com
-  #    - username: jekyll2
-  #      instance: example.com
-
-  #   youtube: jekyll
-  #   youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-  #   youtube_channel_name: CloudCannon
-
-header_pages:
-  - 3dprinting.md
-  - woodworking.md
-  - code.md
-  # - about.md
+# Plugins
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-archives
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: "/category/:name/"
+
+# Pagination
+paginate: 6
+paginate_path: /page:num/
+
+# Other
+markdown: kramdown
+
 kramdown:
+  input: GFM
   syntax_highlighter: rouge
-  parse_block_html: true
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "enabled"
 livereload: true
-incremental: false
+include: ["_pages"]
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]

@@ -3,16 +3,16 @@ layout: post
 title: Installing Klipper on Sunlu S8 with SKR 2
 date: 2021-09-18 16:33
 category: 3dprinting
-author: Mark
-tags: [3dprinting, sunlu_s8, sunlu_s8_plus]
-summary:
+author: mark
+tags: [Sunlu S8]
+description:
 ---
 
 This walkthough is really just notes for me and anyone else that wants to install _klipper_ on a Sunlu S8.
 
 Within days of purchasing a Sunlu S8 Plus (actually branded Jay S8+) I realized the noisy steppers needed to be replaced, so I switched out the main board to a [BigTreeTech SKR 2 motherboard](https://amzn.to/2Xu85Es) with silent [TMC 2209 stepper drivers](https://amzn.to/3tRzsEE). I bought this board over the slightly cheaper SKR Mini because I wanted the extra 5th stepper driver for the second z-axis motor so I can do software z-axis syncing.
 
-I also bought the BigTreeTech TFT35 E3 V3.0 LCD so I will be trying to get that working too. Amazon has a good bundle on all three together which saves about $20 at time of writing: [SKR 2 + TFT35 E3 V3.0 + TMC2209*5 - *_Amazon_\*](https://amzn.to/2Xxtj4g).
+I also bought the BigTreeTech TFT35 E3 V3.0 LCD so I will be trying to get that working too. Amazon has a good bundle on all three together which saves about $20 at time of writing: [SKR 2 + TFT35 E3 V3.0 + TMC2209⨉5 - *Amazon*](https://amzn.to/2Xxtj4g).
 
 ## Requirements / Setup
 

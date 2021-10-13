@@ -3,9 +3,8 @@ layout: post
 title: Safely connecting a Raspberry Pi to a 3D Printer
 date: 2021-10-02 21:54
 category: 3dprinting
-author: Mark
-tags: [octoprint]
-summary:
+author: mark
+tags: [Octoprint]
 image: /3dprinting/images/raspberry-pi-octoprint/usb_power_blocker.jpeg
 description: Safely connect a Raspberry Pi with Octoprint to a 3D Printer such as Creality Ender 4 or Cr-10 with a USB Power Blocker
 ---

@@ -3,9 +3,9 @@ layout: post
 title: Tronxy X5SA Pro Z Axis Sync
 date: 2021-10-05 10:10
 category: 3dprinting
-author: Mark
+author: mark
 tags: [Tronxy X5SA]
-summary: Automatically sync Z axis screws before a print on the Tronxy X5SA (Pro)
+description: Automatically sync Z axis screws before a print on the Tronxy X5SA (Pro)
 image: /3dprinting/images/tronxy_z_axis_sync/IMG_3560.jpeg
 ---
 
@@ -44,4 +44,4 @@ G28
 
 Now whenever you start a print, your z axis stepper motors will align themselves with a slight noise before starting the print. Very useful and so simple to implement.
 
-#### [Post Comments here](https://www.reddit.com/r/MarksMakerSpace/)
+#### [Post Comments here](https://www.reddit.com/r/MarksMakerSpace/comments/q7l4sy/tronxy_x5sa_pro_zaxis_sync/)

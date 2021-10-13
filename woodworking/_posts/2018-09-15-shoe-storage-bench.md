@@ -2,12 +2,11 @@
 id: 333
 title: Shoe Storage Bench
 date: 2018-09-15T20:27:30+00:00
-author: Mark
+author: mark
 layout: post
 # permalink: /woodworking/shoe-storage-bench/
 image: /woodworking/images/shoe-storage-bench/Shoe-Storage-Bench-55.jpg
-tags:
-  - Furniture
+tags: [Furniture]
 ---
 
 We have wanted a better system for storing our shoes for a long time. When I saw the shoe storage bench that Brad from [FixThisBuildThat](http://fixthisbuildthat.com/sandpaper-disc-storage-rack/) posted, I realized that it would look perfect in our front hallway. So, after a trip to the lumber yard where I picked up some gorgeous 4/4 rough cut walnut, I set about building what ended up as a perfect addition to our home. It is so well used, my wife wants me to make another one!

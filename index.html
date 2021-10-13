@@ -1,35 +1,69 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
-title: Mark's Maker Space
+title: Home
 ---
 
-{% assign items_grouped = site.posts | group_by: 'categories' %}
-{% for group in items_grouped %}
-  {% assign groupname = group.name | remove: '"' | remove: ']' | remove: '[' %}
+{% if page.url == "/" %}
 
-  <h2 class="post-list-heading">
-    {% case groupname %}
-    {% when "3dprinting" %}
-      3D Printing
-    {% when "code" %}
-      Code
-    {% when "woodworking" %}
-      Woodworking
-    {% else %}
-      Other Posts
-    {% endcase %}
-  </h2>
-  <div class="post-summary"> 
-    {%- for post in group.items -%}
-
-      {% include preview.html %}
-
-    {%- endfor -%}
-    </div>
-
+  {% assign featured = false %}
+  {% for post in site.posts %}
+  {% if post.featured == true %}
+  {% assign featured = true %}
+  {% endif %}
   {% endfor %}
 
-</div>
+  {% if featured %}
+  <!-- Featured
+  ================================================== -->
+  <section class="featured-posts">
+    <div class="section-title">
+      <h2><span>Featured</span></h2>
+    </div>
+    <div class="row">
+
+      {% for post in site.posts %}
+
+      {% if post.featured == true %}
+
+      {% include featuredbox.html %}
+
+      {% endif %}
+
+      {% endfor %}
+
+    </div>
+  </section>
+
+  {% endif %}
+{% endif %}
+
+<!-- Posts Index
+================================================== -->
+<section class="recent-posts">
+
+  <div class="section-title">
+
+    <h2><span>All Posts</span></h2>
+
+  </div>
+
+  <div class="row listrecent">
+
+    {% for post in site.posts %}
+
+    {% include postbox.html %}
+
+    {% endfor %}
+
+  </div>
+
+</section>
+
+<!-- Pagination
+================================================== -->
+<!-- <div class="bottompagination">
+<div class="pointerup"><i class="fa fa-caret-up"></i></div>
+<span class="navigation" role="navigation">
+    {% include pagination.html %}
+</span>
+</div> -->

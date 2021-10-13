@@ -3,10 +3,9 @@ layout: post
 title: Quicklook - MacOS
 date: 2021-10-01 11:44
 category: code
-author: Mark
-tags:
-  - macOS
-summary: Tips for using QuickLook to preview files in MacOS
+author: mark
+tags: [macOS]
+description: Tips for using QuickLook to preview files in MacOS
 image: /code/assets/qlicon.jpg
 noFeatureImage: true
 ---

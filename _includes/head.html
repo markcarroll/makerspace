@@ -1,0 +1,37 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
+  
+  {%- seo -%}
+  
+  <title>{{ page.title }} | {{site.name}}</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  
+  <link href="https://fonts.googleapis.com/css?family=Orbitron%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+  {% comment %}
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"> -->
+  <!-- Replacing font awesome with line awesome -->
+  {% endcomment %}
+  <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+
+  {%- feed_meta -%}
+
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+  
+  <script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
+
+  {% if site.google_tag_manager and jekyll.environment == 'production' %}
+    {% include analytics-head.html %} 
+  {% endif %}
+
+  
+</head>
+

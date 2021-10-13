@@ -1,0 +1,49 @@
+---
+# Add a comment to make this file sass-y.
+# Change this file for any custom CSS.
+---
+
+.page__share { 
+  margin-left: 0; 
+  margin-right: 0; 
+  width: 100%; 
+  clear: both; 
+}
+
+.btn { 
+  text-align: left !important;
+  display: inline-block; 
+  margin-bottom: 0.25em; 
+  padding: 0.5em 1em; 
+  // font-size: 0.75em; 
+  font-weight: bold; 
+  text-align: center; 
+  text-decoration: none; 
+  border-width: 0; 
+  border-radius: 4px; 
+  cursor: pointer;
+  color:#fff !important;
+}
+.btn .icon { margin-right: 0.5em; }
+.btn .icon + .hidden { margin-left: -0.5em; /* override for hidden text*/ }
+.btn--facebook { background-color: #3b5998; color: #fff; }
+.btn--facebook:visited { background-color: #3b5998; color: #fff; }
+.btn--facebook:hover { background-color: #2f477a; color: #fff; }
+.btn--twitter { background-color: #55acee; color: #fff; }
+.btn--twitter:visited { background-color: #55acee; color: #fff; }
+.btn--twitter:hover { background-color: #448abe; color: #fff; }
+.btn--linkedin { background-color: #007bb6; color: #fff; }
+.btn--linkedin:visited { background-color: #007bb6; color: #fff; }
+.btn--linkedin:hover { background-color: #006292; color: #fff; }
+
+
+/* We need to add display:inline in order to align the '>>' of the 'read more' link */
+.post-excerpt p {
+	display:inline;
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+	"syntax",
+    "starsnonscss"
+;

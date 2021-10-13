@@ -3,14 +3,10 @@ layout: post
 title: Buck Converter Box
 date: 2021-09-08 21:33
 category: 3dprinting
-author: Mark
-tags:
-  - Ender 6
-  - STL
-  - Models
-  - Prints
+author: mark
+tags: [Ender 6, STL, Models, Prints]
 image: /3dprinting/images/buck-converter-box/buck converter box.jpg
-summary:
+description: STL for a Simple box with a snap-fit lid for a HiLetGo DC to DC Buck Converter
 ---
 
 This is a simple box with a snap-fit lid for a [HiLetGo DC to DC Buck Converter](https://amzn.to/3BRNHw4) to allow it to fit into a 3D printer case without coming in contact with the metal surround.

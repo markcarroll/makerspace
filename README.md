@@ -1,2 +1,0 @@
-# makerspace
-Maker Space

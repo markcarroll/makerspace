@@ -1,0 +1,30 @@
+<!-- Author Box -->
+{% assign author = site.authors[page.author] %}
+{% if page.author %}
+<div class=" post-top-meta">
+    <div class="mb-4 mt-3 text-left">
+        {% if author.avatar %}
+        <img class="author-thumb" src="{{site.baseurl}}{{ author.avatar }}" alt="{{ author.display_name }}">
+        {% endif %}
+    </div>
+    <div class="text-center text-md-left authorpage">
+      <h1 class="author-name">{{ author.name }}</h1>
+        <span class="author-description">{{ author.description }}</span>
+      </div>
+      <a target="_blank"  href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fmarksmakerspace.com%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Efollow%7Ctwgr%5E{{ author.twitter }}&region=follow_link&screen_name={{ author.twitter }}" 
+      class="btn follow" style="background-color: #1d9bf0;">
+        <i class="fab fa-twitter fa-lg"></i>
+         <!-- @{{author.twitter}} -->
+        </a>
+      <a target="_blank"  href="https://instagram.com/{{ author.instagram }}" 
+        class="btn follow" style="background-color: #833AB4;">
+        <i class="fab fa-instagram fa-lg"></i> 
+        <!-- @{{author.instagram}} -->
+      </a>
+      <a target="_blank"  href="https://reddit.com/{{ author.reddit }}" 
+        class="btn follow" style="background-color: #FF4500;">
+        <i class="fab fa-reddit fa-lg"></i> 
+        <!-- @{{author.reddit}} -->
+      </a>
+    </div>
+{% endif %}

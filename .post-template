@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Post title goes here"
+author: mark
+categories: [ 3dprinting ]
+tags: [Tronxy X5SA, Ender 6, STL, Models, Prints]
+image: assets/images/5.jpg
+description: "Something about this post here"
+---

@@ -1,0 +1,14 @@
+---
+title: "3D Printing"
+layout: default
+permalink: "/3dprinting/"
+---
+
+<div class="row listrecent">
+  <div class="section-title col-md-12 mt-4">
+  <h2 id="3dprinting">3D Printing</h2>
+  </div>
+  {% for post in site.categories["3dprinting"] %}
+  {% include postbox.html %}
+  {% endfor %}
+</div>

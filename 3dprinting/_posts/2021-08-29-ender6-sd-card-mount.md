@@ -3,13 +3,9 @@ layout: post
 title: Ender 6 SD Card Reader Mount
 date: 2021-08-29 21:09
 image: /3dprinting/images/ender6-sd-card-mount/ender6-sd-card-mount-2.jpeg
-author: Mark
-tags:
-  - Ender 6
-  - STL
-  - Models
-  - Prints
-summary: Mounting plate to replace the built in SD card reader with one that works with aftermarket motherboards
+author: mark
+tags: [Ender 6, STL, Models, Prints]
+description: Mounting plate to replace the built in SD card reader with one that works with aftermarket motherboards
 ---
 
 ![Card Reader](images/ender6-sd-card-mount/ender6-sd-card-mount-1.jpeg)

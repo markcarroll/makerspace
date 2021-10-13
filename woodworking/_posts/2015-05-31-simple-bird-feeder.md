@@ -2,14 +2,13 @@
 id: 8
 title: Simple Bird Feeder
 date: 2015-05-31T22:35:05+00:00
-author: Mark
+author: mark
 layout: post
 guid: https://markswoodprojects.com/?p=8
 post_views_count:
   - "0"
 image: /woodworking/images/simple-bird-feeder/IMG_7157.jpg
-tags:
-  - Outdoor Project
+tags: [Outdoor Project]
 ---
 
 With summer coming, my wife asked me if I could build her a bird feeder to hang in view of our kitchen window.  I made this one out of one single 5½&#8221; cedar fence board, so it only cost me around $2

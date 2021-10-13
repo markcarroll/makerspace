@@ -3,11 +3,10 @@ layout: post
 title: Using a Wyze Camera with Octoprint
 date: 2021-09-02 11:46
 category: 3dprinting
-author: Mark
-tags:
-  - Octoprint
+author: mark
+tags: [Octoprint]
 image: /3dprinting/images/Using-Wyze-Cam-with-Octoprint/wyzecam_v2.jpg
-summary:
+description: How to convert a Wyze Cam V2 into a webcam for streaming Octoprint or Klipper
 ---
 
 Wyze Cam V2's are awesome web cameras that could be found for very little money for which they include a surprising amount of functionality. I bought a few of the [Wzye Cam V2](https://amzn.to/2WOhJBK)'s for around $20 each and scattered them around the house. They are great it you want to monitor something and don't want to fiddle around with anything more complicated. They even have motion capture and event recording included in the Wyze app.

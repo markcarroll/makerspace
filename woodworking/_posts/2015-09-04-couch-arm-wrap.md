@@ -1,11 +1,10 @@
 ---
 title: Couch Arm Wrap
 date: 2015-09-04T22:54:20+00:00
-author: Mark
+author: mark
 layout: post
 image: /woodworking/images/couch-arm-wrap/Couch-Arm-Wrap-15.jpg
-tags:
-  - Furniture
+tags: [Furniture]
 ---
 
 After buying our new Ektorp couch from IKEA we decided that we missed the wooden arm rests on our old one. We used to like being able to put drinks on the couch arm while watching our nightly TV show, so I went about building some holders that wrap our couch arms and are perfect for setting a drink on.

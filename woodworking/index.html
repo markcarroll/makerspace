@@ -1,0 +1,14 @@
+---
+title: "Woodworking"
+layout: default
+permalink: "/woodworking/"
+---
+
+<div class="row listrecent">
+  <div class="section-title col-md-12 mt-4">
+  <h2 id="woodworking">Woodworking</h2>
+  </div>
+  {% for post in site.categories["woodworking"] %}
+  {% include postbox.html %}
+  {% endfor %}
+</div>
