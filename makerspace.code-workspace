@@ -1,13 +1,13 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
   "settings": {
     "editor.formatOnSave": false,
     "[html]": {
       "editor.defaultFormatter": "vscode.html-language-features"
-  },
+    }
   }
 }
