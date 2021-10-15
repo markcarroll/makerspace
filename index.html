@@ -51,7 +51,11 @@ title: Home
 
     {% for post in site.posts %}
 
+    {% if post.print != true %}
+
     {% include postbox.html %}
+
+    {% endif %}
 
     {% endfor %}
 

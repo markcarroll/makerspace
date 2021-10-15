@@ -38,10 +38,9 @@ $lg-max: ($xl-min - 1);
   }
 }
 
-
-.site-content .mainheading {
-  padding-bottom: 1rem;
-}
+// .site-content .mainheading {
+//   padding-bottom: 1rem;
+// }
 
 a {
   color: #00ab6b;
@@ -349,30 +348,31 @@ span.post-read-more a:hover {
   margin-right: 5px;
 }
 
-.mainheading span.sitetitle {
+.sitetitle {
   font-family: Orbitron;
   font-weight: 700;
   font-size: 2.2rem;
   display:inline-block;
 }
 @media (min-width: $lg-min) {
-.mainheading span.sitetitle {
+.sitetitle {
     font-size: 2.5rem;
   }
 }
 @media (max-width: $xs-max) {
-.mainheading span.sitetitle {
+.sitetitle {
     font-size: 1.3rem;
   }
-  .mainheading .lead {
+  .lead {
     font-size: 1rem;
   }
 }
-.mainheading h1.sitetitle {
-  font-family: Orbitron;
+
+.site-content .lead {
+  margin-bottom: 2rem;
 }
 
-.mainheading h1.posttitle {
+h1.posttitle {
   font-weight: 700;
   margin-bottom: 1rem;
 }
@@ -772,7 +772,7 @@ h6 {
 .article-post h5,
 .article-post h6 {
   font-weight: 700;
-  margin-bottom: 1.5rem;
+  margin-top: 1em;
 }
 
 .article-post img.shadow {

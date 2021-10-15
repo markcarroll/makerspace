@@ -6,7 +6,7 @@ category: 3dprinting
 author: mark
 tags: [Tronxy X5SA]
 description: Automatically sync Z axis screws before a print on the Tronxy X5SA (Pro)
-image: /3dprinting/images/tronxy_z_axis_sync/IMG_3560.jpeg
+image: /3dprinting/images/tronxy-z-axis-sync/IMG_3560.jpeg
 ---
 
 As with a number of 3D printers, the Tronxy X5SA has two Z-axis stepper motors. While normally these help to keep the build plate level, they can get out of alignment when the motors are turned off and, thus, render a previoulsy perfectly level plate wonky.
