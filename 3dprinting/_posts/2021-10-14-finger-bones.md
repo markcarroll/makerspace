@@ -29,6 +29,7 @@ Here is the thingiverse link: <https://www.thingiverse.com/thing:4962956>
 |**Rafts:**| Brim |
 |**Supports:**| Yes, 60° |
 |**Infill:**| 15% Cubic |
+{:.print-settings}
 
 ### Instructions
 

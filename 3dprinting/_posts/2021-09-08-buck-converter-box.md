@@ -39,6 +39,7 @@ However, I needed a safe way to mount the buck converter so this box is what I c
 |**Wall Lines:**| 4|
 |**Supports:**| No|
 |**Infill:**| 15% Cubic |
+{:.print-settings}
 
 ### Instructions
 

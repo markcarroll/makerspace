@@ -31,6 +31,7 @@ I recently changed out the main board on my [Ender 6](https://amzn.to/3DFuYpe) f
 |**Wall Lines:**| 3|
 |**Supports:**| No|
 |**Infill:**| 15% Cubic |
+{:.print-settings}
 
 ### Instructions
 

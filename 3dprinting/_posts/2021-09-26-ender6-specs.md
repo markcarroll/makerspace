@@ -24,13 +24,12 @@ This is a compilation of the Ender 6 specifications that I have been able to fin
 | Product Weight | 22KG |
 | Touch Screen | 4.3 inch |
 | G.W. | 27kg |
+{:.print-settings}
 
 ## Stepper Motors
 
 ### Extruder
 
-|                     |                         |
-| ------------------- | ----------------------- |
 | Brand               | Creality 3D             |
 | Item name           | RepRap 42 Stepper Motor |
 | Item number         | 42-60                   |
@@ -40,15 +39,14 @@ This is a compilation of the Ender 6 specifications that I have been able to fin
 | Current Rating      | 1.5 (A)                 |
 | Rated speed         | 1-1000 (rpm)            |
 | Rated torque        | 0.4 (NM)                |
-| Ambient Temperatuar | -20℃~+50℃               |
+| Ambient Temperature | -20℃~+50℃               |
 | Length              | 60mm                    |
+{:.print-settings}
 
 {% include image-gallery.html folder="images/ender6-specs/extruder" showFilename=false %}
 
 ### X & Y Axis Motors
 
-|                     |                         |
-| ------------------- | ----------------------- |
 | Brand               | Creality 3D             |
 | Item name           | RepRap 42 Stepper Motor |
 | Item number         | 42-48                   |
@@ -58,8 +56,9 @@ This is a compilation of the Ender 6 specifications that I have been able to fin
 | Current Rating      |                         |
 | Rated speed         |                         |
 | Rated torque        |                         |
-| Ambient Temperatuar | -20℃~+50℃               |
+| Ambient Temperature | -20℃~+50℃               |
 | Length              | 48mm                    |
+{:.print-settings}
 
 {% include image-gallery.html folder="images/ender6-specs/xymotors" showFilename=false %}
 
