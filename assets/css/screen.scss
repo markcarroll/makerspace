@@ -139,6 +139,10 @@ section.recent-posts {
   }
 }
 
+// .featured-posts .listfeaturedtag {
+//   height:160px !important;
+// }
+
 .listfeaturedtag {
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -153,6 +157,7 @@ section.recent-posts {
 
 .maxthumb {
   max-height: 300px;
+  height: 100%;
   overflow: hidden;
 }
 
@@ -960,6 +965,12 @@ iframe {
 
 .card .img-fluid {
   width: 100%;
+  // transform: translateY(-50%);
+  // top: 50%;
+  // position: relative;
+  // display: initial;
+  object-fit: cover;
+  height: 100%;
 }
 
 .sticky-top-80 {
