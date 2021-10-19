@@ -30,25 +30,31 @@ authors:
     description: "Making stuff with technology...<br>
     Code, 3D Printing, Woodworking"
 
+taxonomy:
+  categories:
+    3dprinting: "3D Printing"
+    code: "Coding and Other Technical Articles"
+    woodworking: "Woodworking projects and tools"
+
 # Plugins
 plugins:
-  - jekyll-paginate
+  # - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-archives
+  # - jekyll-archives
 
 # Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: "/category/:name/"
+# jekyll-archives:
+#   enabled:
+#     - categories
+#   layout: archive
+#   permalinks:
+#     category: "/:name/"
 
 # Pagination
-paginate: 6
-paginate_path: /page:num/
+# paginate: 6
+# paginate_path: /page:num/
 
 # Other
 markdown: kramdown

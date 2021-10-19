@@ -8,3 +8,33 @@ image: assets/images/5.jpg
 description: "Something about this post here"
 print: false
 ---
+
+{% include image-gallery.html folder="images/finger-bones" %}
+
+### STL
+
+Comment 
+
+Here is the thingiverse link: <https://www.thingiverse.com/thing:4962956>
+
+### Print Settings
+
+|**Printer:**| Tronxy X5SA Pro |
+|**Slicer:**| Cura|
+|**Material:**| eSun PLA+ White|
+|**Resolution:**| 0.2mm |
+|**Nozzle:**| 0.4mm |
+|**Wall Lines:**| 2 |
+|**Rafts:**| Brim |
+|**Supports:**| Yes, 60° |
+|**Infill:**| 15% Cubic |
+{:.print-settings}
+
+### Instructions
+
+How to build 
+
+### Pictures
+
+![Fingers](images/finger-bones/finger-bones1.jpeg)
+![Fingers](images/finger-bones/finger-bones2.jpeg)

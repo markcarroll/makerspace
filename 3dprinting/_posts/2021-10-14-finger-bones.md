@@ -3,7 +3,7 @@ layout: post
 title:  "Finger Bones"
 author: mark
 categories: [ 3dprinting ]
-tags: [Tronxy X5SA, STL, Models, Prints]
+tags: [Tronxy X5SA, STL, Models, Prints, Halloween]
 image: /3dprinting/images/finger-bones/finger-bones1.jpeg
 description: "Finger Bones for Halloween"
 noFeatureImage: true
@@ -22,7 +22,7 @@ Here is the thingiverse link: <https://www.thingiverse.com/thing:4962956>
 
 |**Printer:**| Tronxy X5SA Pro |
 |**Slicer:**| Cura|
-|**Material:**| eSun PLA+ White|
+|**Material:**| [Sunlu PLA+ White](https://amzn.to/3aRMMQE) |
 |**Resolution:**| 0.2mm |
 |**Nozzle:**| 0.4mm |
 |**Wall Lines:**| 2 |
