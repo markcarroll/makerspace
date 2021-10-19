@@ -22,6 +22,31 @@ $lg-max: ($xl-min - 1);
 @media (min-width: $lg-min) { ... } 
 */
 
+.mw-50 {
+  max-width: 50%;
+  // flex: 0 0 50%;
+}
+
+.print-item {
+  list-style-type: none;
+  max-height:150px ;
+  height: 100%;
+  overflow: hidden;
+  display: list-item;
+  a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    &>* {
+      max-width: 50%;
+    }
+    @media screen and (max-width: $sm-max) {
+      h2.card-title { 
+        font-size: 1rem;
+      }
+    }
+  }
+}
 @media screen and (min-width: $xl-min) {
   html {
     font-size: 18px;

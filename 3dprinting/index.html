@@ -2,8 +2,10 @@
 title: "3D Printing"
 layout: default
 permalink: "/3dprinting/"
+toc: true
 ---
 
+{% comment %}
 <div class="row listrecent">
   <div class="section-title col-md-12 mt-4">
   <h2 id="3dprinting">3D Printing</h2>
@@ -11,4 +13,55 @@ permalink: "/3dprinting/"
   {% for post in site.categories["3dprinting"] %}
   {% include postbox.html %}
   {% endfor %}
+</div>
+{% endcomment %}
+<div class="d-flex">
+
+
+<!-- Posts Index
+================================================== -->
+<section class="recent-posts col-md-8">
+<div class="section-title col-md-12 mt-4 row">
+  <h2><span>3D Printing Articles</span></h2>
+</div>
+
+<div class="row listrecent">
+  {% for post in site.categories["3dprinting"] %}
+    {% if post.print != true %}
+      {% include postbox.html %}
+    {% endif %}
+  {% endfor %}
+</div>
+
+</section>
+
+<!-- Prints
+================================================== -->
+<section class="featured-posts col-md-4 ml-2 ml-lg-3 ml-xl-4">
+  <div class="section-title mt-4 row">
+    <h2><span>Recent Prints</span></h2>
+  </div>
+  <div class="row pl-0">
+    <ul class="pl-0 pr-2">
+      {% for post in site.categories["3dprinting"]%}
+      {% if post.print == true and post.image %}
+      <li class="my-2 card listfeaturedtag print-item">
+        <a href="{{ post.url | relative_url }}" title="{{ post.title }}" target="_blank" class="text-dark">
+          <img src="{{ post.image }}"  alt="{{ post.title }}" title="{{ post.title }}" class="img-fluid"/>
+          <h2 class="card-title px-2">{{ post.title }}</h2>
+        </a>
+      </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+    {% comment %}
+    {% for post in site.categories["3dprinting"]%}
+      {% if post.print == true %}
+        {% include featuredbox.html %}
+      {% endif %}
+    {% endfor %}
+    {% endcomment %}
+  </div>
+</section>
+
 </div>
