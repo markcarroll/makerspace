@@ -60,6 +60,7 @@ plugins:
 markdown: kramdown
 kramdown:
   input: GFM
+  smart_quotes: ["apos", "apos", "quot", "quot"]
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     block:
@@ -67,6 +68,7 @@ kramdown:
 
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "disabled"
+lightbox: "enabled"
 livereload: true
 include: ["_pages"]
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
