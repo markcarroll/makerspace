@@ -65,3 +65,8 @@
 {% endif %}
 
 <script src="{{ '/assets/js/ie10-viewport-bug-workaround.js' | relative_url }}"></script> 
+
+{% if site.lightbox == "enabled" %}
+<script type="text/javascript" src="{{ '/assets/js/lightbox.js' | relative_url }}"></script>
+<link rel="stylesheet" href="{{ '/assets/css/lightbox.css' | relative_url }}">
+{% endif %}

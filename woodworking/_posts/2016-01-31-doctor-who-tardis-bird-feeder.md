@@ -1,5 +1,4 @@
 ---
-id: 280
 title: Doctor Who TARDIS Bird Feeder
 date: 2016-01-31T21:32:20+00:00
 author: mark
@@ -8,9 +7,9 @@ image: /woodworking/images/doctor-who-tardis-bird-feeder/IMG_1641-2.jpg
 tags: [Outdoor Project, Gift]
 ---
 
-Yes, you read that correctly. My wife loves Doctor Who and since she asked me back in early December if I could build her another [bird feeder](/projects/simple-bird-feeder/), I thought that I would build her something special &#8211; a TARDIS bird feeder.
+Yes, you read that correctly. My wife loves Doctor Who and since she asked me back in early December if I could build her another [bird feeder]({% post_url /woodworking/2015-05-31-simple-bird-feeder %}), I thought that I would build her something special &#8211; a TARDIS bird feeder.
 
-![TARDIS Bird Feeder](images/doctor-who-tardis-bird-feeder/IMG_1466.jpeg)
+![TARDIS Bird Feeder](images/doctor-who-tardis-bird-feeder/IMG_1466.jpeg){:.shadow}
 ![TARDIS Bird Feeder](images/doctor-who-tardis-bird-feeder/IMG_1641.jpg)
 
 I began with the plan for the original 1963 Tardis design that I got from this [web site](http://homepage.ntlworld.com/richard.bradley3/brachaki.pdf), and some guidelines from an Instructables post [here](http://www.instructables.com/id/TARDIS-Bird-Feeder/).  Unfortunately, the measurements on that post were all in millimeters and didn't seem to add up, so I derived my own.  Essentially take the plan and scale it to <sup>3</sup>/<sub>32</sub>" for every 1" on the plan then take some artistic license to get it looking about right. I also decided that I was going to mount mine on a post rather than hang it, so that caused a few changes too.
