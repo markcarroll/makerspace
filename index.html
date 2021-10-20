@@ -12,57 +12,80 @@ title: Home
   {% endif %}
   {% endfor %}
 
-  {% if featured %}
+  <div class="d-flex">
+    {% comment %}
   <!-- Featured
   ================================================== -->
+  
   <section class="featured-posts">
     <div class="section-title">
       <h2><span>Recent Makes</span></h2>
     </div>
     <div class="row">
+      
+      {% for post in site.posts %}
+      
+      {% if post.featured == true or post.print == true %}
+      
+      {% include featuredbox.html %}
+      
+      {% endif %}
+      
+      {% endfor %}
+      
+    </div>
+  </section>
+  {% endcomment %}
+  
+  {% endif %}
+
+<!-- Posts Index
+================================================== -->
+  <section class="recent-posts col-md-9">
+
+    <div class="section-title">
+
+      <h2><span>All Posts</span></h2>
+
+    </div>
+
+    <div class="row listrecent">
 
       {% for post in site.posts %}
 
-      {% if post.featured == true or post.print == true %}
+      {% if post.print != true %}
 
-      {% include featuredbox.html %}
+      {% include postbox.html %}
 
       {% endif %}
 
       {% endfor %}
 
     </div>
+
   </section>
 
-  {% endif %}
-{% endif %}
+  <section class="featured-posts col-md-3 col-sm-4 ml-2 ml-lg-3 ml-xl-4">
+    <div class="section-title row">
+      <h2><span>Recent Makes</span></h2>
+    </div>
+    <div class="row pl-0">
+      <ul class="pl-0 pr-2">
+        {% for post in site.categories["3dprinting"]%}
+        {% if post.print == true and post.image %}
+        <li class="my-2 card listfeaturedtag print-item">
+          <a href="{{ post.url | relative_url }}" title="{{ post.title }}" target="_blank" class="text-dark">
+            <img src="{{ post.image }}"  alt="{{ post.title }}" title="{{ post.title }}" class="img-fluid"/>
+            <h2 class="card-title px-2">{{ post.title }}</h2>
+          </a>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
 
-<!-- Posts Index
-================================================== -->
-<section class="recent-posts">
-
-  <div class="section-title">
-
-    <h2><span>All Posts</span></h2>
-
-  </div>
-
-  <div class="row listrecent">
-
-    {% for post in site.posts %}
-
-    {% if post.print != true %}
-
-    {% include postbox.html %}
-
-    {% endif %}
-
-    {% endfor %}
-
-  </div>
-
-</section>
-
+</div>
 <!-- Pagination
 ================================================== -->
 <!-- <div class="bottompagination">

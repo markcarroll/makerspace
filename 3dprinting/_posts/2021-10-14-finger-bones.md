@@ -6,7 +6,6 @@ categories: [ 3dprinting ]
 tags: [Tronxy X5SA, STL, Models, Prints, Halloween]
 image: /3dprinting/images/finger-bones/finger-bones1.jpeg
 description: "Finger Bones for Halloween"
-noFeatureImage: true
 print: true
 ---
 
