@@ -1,7 +1,7 @@
 {% assign category = page.categories[0] %}
 {% assign tg = page.tags | join: " " %}
 {% assign keywords = site.amazon.search[category] | append: " " | append: tg %}
-{{ keywords }}
+
 <div class="container">
   <script type="text/javascript">
     amzn_assoc_placement = "adunit0";
