@@ -9,9 +9,9 @@ description: "Upgrading an Ender 6 with an BIQU H2 Direct Drive Extruder"
 print: false
 ---
 
-{% include image-gallery.html folder="images/ender6-extruder-move" %}
 
 The Ender 6 is a great printer in many aspects, but one thing it has always been troubled with is stringing. The original location of the Ender 6 extruder motor is half way down the right hand of the frame. This design means a very long Bowden tube that results in terrible stringing and the need for fairly extreme retractions that still leave a less than perfect print.
+
 
 ### Solution: Move the Extruder
 
@@ -57,7 +57,8 @@ As it happens the Ender 6 design has a perfect spot for the extruder that seems 
 7. Attach the filament guide to the top of the frame using the other two M4 screws and nuts
 8. Lastly, push the filler plate into the hole where the extruder used to be.
 
-Now you should be all set to thread the filament through the guide and into the extruder.  You should find that you can reduce the extraction distance in your slicer settings and still get good results. 
+Now you should be all set to thread the filament through the guide and into the extruder.  You should find that you can reduce the extraction distance in your slicer settings and still get good results.
 
+{% include image-gallery.html folder="images/ender6-extruder-move" %}
 
-#### [Post Comments here](https://www.reddit.com/r/MarksMakerSpace/comments/q7l4sy/tronxy_x5sa_pro_zaxis_sync/)
+#### [Post Comments here](https://www.reddit.com/r/MarksMakerSpace/comments/qhgpg7/ender_6_reduce_stringing_by_moving_the_extruder/)
