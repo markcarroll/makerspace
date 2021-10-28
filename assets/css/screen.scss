@@ -267,9 +267,9 @@ section.recent-posts {
   border-radius: 100%;
 }
 
-.post-top-meta {
-  margin-bottom: 2rem;
-}
+// .post-top-meta {
+//   margin-bottom: 2rem;
+// }
 
 .post-top-meta .author-thumb {
   width: 76px;
@@ -505,7 +505,6 @@ blockquote {
 
 .share {
   text-align: center;
-  max-width: 110px;
 }
 
 .share p {
@@ -540,11 +539,11 @@ blockquote {
   top: 100px;
 }
 
-@media (min-width: $md-min) {
-  .share ul li {
-    display: block;
-  }
-}
+// @media (min-width: $md-min) {
+//   .share ul li {
+//     display: block;
+//   }
+// }
 
 @media (max-width: 999px) {
   .featured-box-img-cover {
@@ -704,10 +703,10 @@ ul.tags li a:hover {
   text-transform: uppercase;
 }
 
-.post-top-meta .btn.follow {
-  // margin-left: 5px;
-  // margin-top: -4px;
-}
+// .post-top-meta .btn.follow {
+//    margin-left: 5px;
+//    margin-top: -4px;
+// }
 
 .alertbar {
   box-shadow: 0 -3px 10px 0 rgba(0, 0, 0, 0.0785);

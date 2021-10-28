@@ -11,9 +11,9 @@ url: "https://marksmakerspace.com" # the base hostname & protocol for your site,
 google_tag_manager: GTM-W9MRP88
 google_analytics: UA-4098886-2
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
-adsense: "disabled"
-adsense-data-ad-client: "ca-pub-3412143450191416"
-adsense-data-ad-slot: "1363087678"
+# adsense: "disabled"
+# adsense-data-ad-client: "ca-pub-3412143450191416"
+# adsense-data-ad-slot: "1363087678"
 
 permalink: /:categories/:title:output_ext
 
@@ -27,14 +27,25 @@ authors:
     web: https://www.marksmakerspace.com
     twitter: marksmakerspace
     instagram: marksmakerspace
-    description: "Making stuff with technology...<br>
-    Code, 3D Printing, Woodworking"
+    description: "Making stuff with technology"
+    #...<br>
+    #Code, 3D Printing, Woodworking"
 
 taxonomy:
   categories:
     3dprinting: "3D Printing"
     code: "Coding and Other Technical Articles"
     woodworking: "Woodworking projects and tools"
+
+amazon:
+  search:
+    3dprinting: "3d printer filament deals"
+    code: "gadget deals"
+    woodworking: "woodworking deals"
+  category:
+    3dprinting: "Industrial"
+    code: "Electronics"
+    woodworking: "Tools"
 
 # Plugins
 plugins:

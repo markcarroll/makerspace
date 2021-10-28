@@ -1,0 +1,21 @@
+{% assign category = page.categories[0] %}
+{% assign tg = page.tags | join: " " %}
+{% assign keywords = site.amazon.search[category] | append: " " | append: tg %}
+{{ keywords }}
+<div class="container">
+  <script type="text/javascript">
+    amzn_assoc_placement = "adunit0";
+    amzn_assoc_tracking_id = "thingiver-20";
+    amzn_assoc_ad_mode = "search";
+    amzn_assoc_ad_type = "smart";
+    amzn_assoc_marketplace = "amazon";
+    amzn_assoc_region = "US";
+    amzn_assoc_default_search_phrase = "{{ keywords}}";
+    amzn_assoc_default_category = "{{ site.amazon.category[category] }}";
+    amzn_assoc_linkid = "69f6b095a4b99d5100c61f3f255d6028";
+    amzn_assoc_default_browse_node = "16310091";
+    amzn_assoc_search_bar = "false";
+    amzn_assoc_title = "";
+    </script>
+    <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+</div>
