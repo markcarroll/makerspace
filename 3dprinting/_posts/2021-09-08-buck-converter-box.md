@@ -23,8 +23,8 @@ However, I needed a safe way to mount the buck converter so this box is what I c
 
 ### Parts List
 
-- HiLetgo LM2596 Adjustable DC-DC Step Down Buck Power Convert Module 4.0-40V Input to 1.25-37V Output with LED Voltmeter Display [_(Amazon)_](https://amzn.to/3BRNHw4)
-- (Optional) 12V Gelid 40mm silent fan [_(Amazon)_](https://amzn.to/3E0vgHq)
+- [HiLetgo LM2596 Adjustable DC-DC Step Down Buck Power Convert Module 4.0-40V Input to 1.25-37V Output with LED Voltmeter Display](https://amzn.to/3BRNHw4)
+- (Optional) [12V Gelid 40mm silent fan](https://amzn.to/3E0vgHq)
 
 ### Files
 

@@ -15,8 +15,8 @@ I recently changed out the main board on my [Ender 6](https://amzn.to/3DFuYpe) f
 
 ### Parts List
 
-- SD card extender [_(Amazon)_](https://amzn.to/3jrmJ83)
-- BigTreeTech SKR 2 board (or other with onboard SD slot) [_(Amazon)_](https://amzn.to/3DEARTB)
+- [SD card extender](https://amzn.to/3jrmJ83) <i class="fab fa-amazon"/>
+- [BigTreeTech SKR 2 board (or other with onboard SD slot)](https://amzn.to/3DEARTB) <i class="fab fa-amazon"/>
 
 ### Files
 
@@ -24,9 +24,9 @@ I recently changed out the main board on my [Ender 6](https://amzn.to/3DFuYpe) f
 
 ### Print Settings
 
-|**Printer:**| Creality CR-10 V3 (well the Ender 6 was in pieces 😜)|
+|**Printer:**| [Creality CR-10 V3] <i class="fab fa-amazon"/>(https://amzn.to/3nD8zlg) (well the Ender 6 was in pieces 😜)|
 |**Slicer:**| Cura|
-|**Material:**| Overture PLA+|
+|**Material:**| [Overture PLA+](https://amzn.to/2ZxaZKh) <i class="fab fa-amazon"/> |
 |**Resolution:**| 0.2 mm with a 0.4mm nozzle|
 |**Wall Lines:**| 3|
 |**Supports:**| No|

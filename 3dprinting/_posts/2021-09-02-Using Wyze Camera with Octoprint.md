@@ -15,9 +15,9 @@ Wyze Cam V2's are awesome web cameras that could be found for very little money 
 
 ### Parts List
 
-- Wyze Cam V2 [_(Amazon)_](https://amzn.to/2WOhJBK)
-- Raspberry Pi running Octoprint [_(Amazon)_](https://amzn.to/3gToJEs)
-- Micro SD Card to flash the camera's firmware [_(Amazon)_](https://amzn.to/3yLxk2k)
+- [Wyze Cam V2](https://amzn.to/2WOhJBK)
+- [Raspberry Pi running Octoprint](https://amzn.to/3gToJEs)
+- [Micro SD Card to flash the camera's firmware](https://amzn.to/3yLxk2k)
 
 ### Files
 

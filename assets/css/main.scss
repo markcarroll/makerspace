@@ -57,6 +57,7 @@ table.print-settings {
 	display:inline;
 }
 
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 // @import	"syntax", "starsnonscss";
 td.rouge-code { width: 100%;}
@@ -65,3 +66,11 @@ pre.lineno { color: #9999;}
 // @import "syntax";
 @import "syntax-minmis";
 // @import "./gh.css";
+
+a[href*="amzn.to"] { 
+  font-family: 'Font Awesome 5 Brands';
+  &:after{content: "\f270";
+    color: black;
+    margin-left:0.25rem;
+  }
+}
