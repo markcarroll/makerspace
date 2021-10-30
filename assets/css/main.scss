@@ -67,10 +67,24 @@ pre.lineno { color: #9999;}
 @import "syntax-minmis";
 // @import "./gh.css";
 
-a[href*="amzn.to"] { 
+a[href*="amzn.to"], .amazon { 
   font-family: 'Font Awesome 5 Brands';
   &:after{content: "\f270";
     color: black;
     margin-left:0.25rem;
+  }
+}
+
+a[href*="thingiverse"] { 
+  &:after{
+    display: inline-block;
+    content: ' ';
+    background-image: url('/assets/images/thingiverse.svg');
+    background-size: 1.1em 1.1em;
+    background-repeat: no-repeat;
+    height: 1.2em;
+    width: 1.1em;
+    margin: 0em 0.25em;
+    vertical-align: middle;
   }
 }

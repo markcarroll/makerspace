@@ -45,20 +45,55 @@ The way to reduce stringing is to shorten the Bowden tube.  Pushing and pulling 
 
 As it happens the Ender 6 design has a perfect spot for the extruder that seems like it was almost made for this change.
 
-1. First before you disassemble the printer you will need to print these three items:
-   1. [Extruder motor spacer mount](https://www.thingiverse.com/thing:4750925/files)
-   2. [Extruder filler cover](https://www.thingiverse.com/thing:4771539)
-   3. [Extruder filament guide](https://www.thingiverse.com/thing:5031418)
-2. First you need to remove the extruder from its exisiting location on the side of the printer.  Unplug the cable and, of course, remove any filament that is threaded through it.
-3. Next, the black tube with the cables running through it from the hot end to the frame needs to be detached from the frame.  Don't move it far though, we are going to re-attach it close to where we took it off soon.
-4. Now attach the extruder motor to the top frame bar at the back to the right of the z-axis mount. **Don't forget to add the spacer you printed earlier in #1**. For this you will a pair of M4 screws and M4 T-nuts.
-5. Use one of the screw hole in the frame from where you removed the cable tube to re-attach the cable holder. Use the other M4 screw for the other hole.  
-6. Now you will need to shorten the Bowden tube as much as you can.  Before you trim it, move the print head to the furthest point from the extruder and measure the shortest length you think you can get away with.  Remember you can always trim more later, but you can't add any back.
-7. Attach the filament guide to the top of the frame using the other two M4 screws and nuts
-8. Lastly, push the filler plate into the hole where the extruder used to be.
+##### 1. Print Parts
 
-Now you should be all set to thread the filament through the guide and into the extruder.  You should find that you can reduce the extraction distance in your slicer settings and still get good results.
+First **_before you disassemble the printer_** you will need to print these three items:  
+   ![Extruder motor spacer mount](images/ender6-extruder-move/thing1.png){:.post-thumb}
+   ![Extruder filler cover](images/ender6-extruder-move/thing2.png){:.post-thumb}
+   ![Extruder filament guide](images/ender6-extruder-move/thing3.png){:.post-thumb}
+   1. Extruder motor spacer mount: <https://www.thingiverse.com/thing:4750925/files>
+   2. Extruder filler cover: <https://www.thingiverse.com/thing:4771539>
+   3. Extruder filament guide: <https://www.thingiverse.com/thing:5031418>
 
-{% include image-gallery.html folder="images/ender6-extruder-move" %}
+##### 2. Remove the extruder
 
-#### [Post Comments here](https://www.reddit.com/r/MarksMakerSpace/comments/qhgpg7/ender_6_reduce_stringing_by_moving_the_extruder/)
+![Extruder](images/ender6-extruder-move/extruder.png)  
+To start, you need to remove the extruder from its existing location on the side of the printer.  
+
+![Extruder removed](images/ender6-extruder-move/IMG_4095.jpeg)  
+Unplug the cable and, of course, remove any filament that is threaded through it. Then just unscrew the extruder in the reverse of how you installed it when you first built the printer. Keep the screws.
+
+##### 3. Add the spacer
+
+![Extruder spacer](images/ender6-extruder-move/IMG_4088.jpeg)  
+Take the spacer block you printed out and attach it to the extruder mounting plate using some M4 screws and T-nuts. _(Note in the picture I printed my own t-nuts before my order arrived from Amazon)_
+
+##### 4. Re-mount the extruder
+
+![Extruder mounted](images/ender6-extruder-move/IMG_4091.jpeg)
+![Extruder mounted](images/ender6-extruder-move/IMG_4094.jpeg)  
+Now attach the extruder motor to the top frame bar at the back to the right of the z-axis mount. **Don't lose the spacer you just added**. It may be a tight fit between the z-axis bar and the cable holder. 
+
+**IMPORTANT: Test the fit by moving the bed up manually and making sure it doesn't hit the extruder motor. If it does, you may need to move both the extruder and cable holder over to the right a little. _Test this, don't skip it!_**
+{:.alert-danger}
+
+##### 5. Bowden Tube
+
+You will need to shorten the Bowden tube as much as you can to get the most benefit from this move.  Before you trim it, move the print head to the furthest point from the extruder and measure the shortest length you think you can get away with.  Remember you can always trim more later, but you can't add any back.
+
+##### 6. Add filament guide and filler plate
+
+![Filament guide](images/ender6-extruder-move/IMG_4008.jpeg)  
+Attach the filament guide to the top of the frame using the other two M4 screws and nuts
+
+![Filler plate](images/ender6-extruder-move/IMG_4086.jpeg)  
+Lastly, push the filler plate into the hole where the extruder used to be.
+
+Now you should be all set to thread the filament through the guide and into the extruder.  You should find that you can reduce the extraction distance in your slicer settings with good results.
+
+![Success](images/ender6-extruder-move/IMG_3470.jpeg)
+![Success](images/ender6-extruder-move/IMG_3472.jpeg)
+
+Success!
+
+##### [Please leave comments here. I am always open to improving these posts](https://www.reddit.com/r/MarksMakerSpace/comments/qhgpg7/ender_6_reduce_stringing_by_moving_the_extruder/)
