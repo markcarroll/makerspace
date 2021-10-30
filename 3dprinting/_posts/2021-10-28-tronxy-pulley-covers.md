@@ -44,5 +44,5 @@ If you don't have spares, you can get screws and t-nuts from kits such as these:
 * [M2,3,4 Screw Set](https://amzn.to/2ZqHitO)
 * [T Slot Nut Set](https://amzn.to/3pLfqfc)
 
-hello
 
+#### [Click here for comments](https://www.reddit.com/r/MarksMakerSpace/comments/qitfa9/tronxy_x5sa_pro_corner_pulley_covers/)

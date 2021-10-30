@@ -15,7 +15,6 @@ The Ender 6 is a great printer in many aspects, but one thing it has always been
 
 ### Attempt #1 - Move the Extruder
 
-
 <iframe style="width:120px;height:240px;float:right" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=thingiver-20&language=en_US&marketplace=amazon&region=US&placement=B071KBVZVV&asins=B071KBVZVV&linkId=a20c23557495cea2216fffab003f220c&show_border=true&link_opens_in_new_window=true"></iframe>
 <iframe style="width:120px;height:240px;float:right" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=thingiver-20&language=en_US&marketplace=amazon&region=US&placement=B07Z4YH6NP&asins=B07Z4YH6NP&linkId=eace030bcd57d72a0d243857f979b755&show_border=true&link_opens_in_new_window=true"></iframe>
 
