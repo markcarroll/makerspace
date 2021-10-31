@@ -36,7 +36,7 @@ M211 S0
 G0 F480 Z-3
 G0 Z20
 ; Enable software endstops
-M211 S0
+M211 S1
 G0 X0 Y0 F3500
 G28
 ; End of Calibrated Home
@@ -61,7 +61,7 @@ G0 F3500 X330 Y0    ; move to a place where the nozzle safely move below the bed
 M211 S0             ; Disable software endstops
 G0 F480 Z-3         ; Z calibration step - move up high enough to 'hit' the top
 G0 Z20              ; move Z back to a normal position
-M211 S0             ; Enable software endstops
+M211 S1             ; Enable software endstops
 
 ; z axis is now calibrated so lets start heatig the hot end while we bed level
 M104 S{material_print_temperature_layer_0} T0
