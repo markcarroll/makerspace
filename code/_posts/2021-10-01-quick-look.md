@@ -7,7 +7,7 @@ author: mark
 tags: [macOS]
 description: Tips for using QuickLook to preview files in MacOS
 image: /code/assets/qlicon.jpg
-noFeatureImage: true
+featuredImage: false
 toc: true
 ---
 
