@@ -19,7 +19,7 @@ Here is the thingiverse link: <https://www.thingiverse.com/thing:4962956>
 
 ### Print Settings
 
-|**Printer:**| Tronxy X5SA Pro |
+|**Printer:**| [Tronxy X5SA Pro](https://amzn.to/3ncEqdm) |
 |**Slicer:**| Cura|
 |**Material:**| [Sunlu PLA+ White](https://amzn.to/3aRMMQE) |
 |**Resolution:**| 0.2mm |
@@ -34,9 +34,4 @@ Here is the thingiverse link: <https://www.thingiverse.com/thing:4962956>
 
 These were a little tricky due to their uneven nature.  What worked best was raising them 3mm off the build plate and then printing supports at 60° angles and then adding a brim to help stop them from falling over.
 
-I printed two at a time so that if one failed I didnt lose too many at a time. 
-
-### Pictures
-
-![Fingers](images/finger-bones/finger-bones1.jpeg)
-![Fingers](images/finger-bones/finger-bones2.jpeg)
+I printed two at a time so that if one failed I didnt lose too many at a time.

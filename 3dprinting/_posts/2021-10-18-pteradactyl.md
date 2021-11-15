@@ -34,10 +34,4 @@ Here is the thingiverse link: <http://www.thingiverse.com/thing:3184732>
 
 ### Instructions
 
-This one was very simple as the creator had already added the support to the print. So print both pieces flat to the build plate and then once done, pull off the support and slide the wings onto the body. 
-
-### Pictures
-
-![Flexidactyl](images/pteradactyl/IMG_3019.jpeg)
-![Flexidactyl](images/pteradactyl/IMG_3023.jpeg)
-![Flexidactyl](images/pteradactyl/IMG_3025.jpeg)
+This one was very simple as the creator had already added the support to the print. So print both pieces flat to the build plate and then once done, pull off the support and slide the wings onto the body.

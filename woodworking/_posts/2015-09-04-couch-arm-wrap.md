@@ -9,7 +9,7 @@ tags: [Furniture]
 
 After buying our new Ektorp couch from IKEA we decided that we missed the wooden arm rests on our old one. We used to like being able to put drinks on the couch arm while watching our nightly TV show, so I went about building some holders that wrap our couch arms and are perfect for setting a drink on.
 
-I started with a piece of poplar from Home Depot that I cut into two 12&#8243; long pieces.<!--more-->
+I started with a piece of poplar from Home Depot that I cut into two 12&Prime; long pieces.<!--more-->
 
 ![-](images/couch-arm-wrap/Couch-Arm-Wrap-1.jpg)
 

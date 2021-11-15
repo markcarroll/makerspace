@@ -38,7 +38,7 @@ It was very simple to make and really only had three different sized pieces (plu
    ![-](images/garden-tote/Garden-Tote-step-4.jpg)
 4. Spread the three remaining bottom pieces out evenly and screw in
    ![-](images/garden-tote/Garden-Tote-step-5.jpg)
-5. Attach the two 13&#8243; tall handle side pieces and finally
+5. Attach the two 13&Prime; tall handle side pieces and finally
    ![-](images/garden-tote/Garden-Tote2.jpg)
 6. Measure the gap between the two handle sides and cut the dowel to fit. Then screw through the handle supports into the dowel
 

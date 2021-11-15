@@ -34,7 +34,7 @@ Here are the pieces to cut. Unless specified they are the board width:
 
 ![-](images/simple-bird-feeder/IMG_7151.jpg)
 
-The only slightly tricky part as cutting the 45 degree angles on the ends of the gable wall pieces.  For this I used my compound miter saw to cut two corners off the top end of the gable wall pieces at 5&#8243; up.
+The only slightly tricky part as cutting the 45 degree angles on the ends of the gable wall pieces.  For this I used my compound miter saw to cut two corners off the top end of the gable wall pieces at 5&Prime; up.
 
 Once the pieces were cut, the assembly was super easy. I just used some exterior grade glue on each part and then pinned each piece in place while the glue was drying with my new Ryobi 18V Cordless brad nailer (I love that thing).
 

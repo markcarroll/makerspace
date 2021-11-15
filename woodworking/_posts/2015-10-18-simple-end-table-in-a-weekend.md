@@ -7,20 +7,20 @@ image: /woodworking/images/simple-end-table-in-a-weekend/End-Table-10.jpg
 tags: [Furniture]
 ---
 
-This weekend I put together this end table. It is 2 feet high and measures 11&#8243; by 18&#8243;. The wood cost around $10 from Home Depot and it only took a few hours to build.&nbsp;I needed something narrow but still useful to&nbsp;go in our bathroom. I think this worked out perfectly, and after staining it black, it looks just like what you get from IKEA.
+This weekend I put together this end table. It is 2 feet high and measures 11&Prime; by 18&Prime;. The wood cost around $10 from Home Depot and it only took a few hours to build.&nbsp;I needed something narrow but still useful to&nbsp;go in our bathroom. I think this worked out perfectly, and after staining it black, it looks just like what you get from IKEA.
 
 #### Materials needed:
 
 1 – 2 x 2 @ 8 feet long  
 1 – 1 x 6 @ 6 feet long  
 1 – 1 x 2 @ 4 feet long  
-1-1/4&#8243; pocket hole screws  
+1-1/4&Prime; pocket hole screws  
 wood glue
 
 #### Equipment needed:
 
 You will need a Kreg Pocket Hole Jig of some kind.  
-I recommend the Kreg K5, it is a great piece of kit, but if you don&#8217;t want to spend the money, they do smaller models all the way down to the Kreg Mini Jig.
+I recommend the Kreg K5, it is a great piece of kit, but if you don't want to spend the money, they do smaller models all the way down to the Kreg Mini Jig.
 
 #### Plan:
 
@@ -28,13 +28,13 @@ I recommend the Kreg K5, it is a great piece of kit, but if you don&#8217;t want
 
 Cut the pieces to size as follows:
 
-2 – 1&#215;6 @ 18-1/2&#8243; (the extra 1/2&#8243; will be trimmed off after glueing)  
-2 – 1&#215;6 @ 16&#8243;&nbsp;(the extra 1/2&#8243; will be trimmed off after glueing)  
-4 – 2&#215;2 @ 23-1/4&#8243;  
-2 – 1&#215;2 @ 14&#8243;  
-2 – 1&#215;2 @ 7&#8243;
+2 – 1&#215;6 @ 18-1/2&Prime; (the extra 1/2&Prime; will be trimmed off after glueing)  
+2 – 1&#215;6 @ 16&Prime;&nbsp;(the extra 1/2&Prime; will be trimmed off after glueing)  
+4 – 2&#215;2 @ 23-1/4&Prime;  
+2 – 1&#215;2 @ 14&Prime;  
+2 – 1&#215;2 @ 7&Prime;
 
-#### The Top and the Shelf:
+#### The Top and the Shelf
 
 [![-](images/simple-end-table-in-a-weekend/End-Table-1-225x300.jpg)](images/simple-end-table-in-a-weekend/End-Table-1.png)
 
@@ -42,13 +42,13 @@ After cutting the pieces to size run the edges of the four 1&#215;6 pieces throu
 
 [![-](images/simple-end-table-in-a-weekend/End-Table-3-300x225.jpg)](images/simple-end-table-in-a-weekend/End-Table-3.png)
 
-Once you have chosen which pieces you want where, put some glue along one edge of each board and clamp them together. &nbsp;If you have a biscuit joiner you can put biscuits between them to keep them level. &nbsp;I did this for the top but not for the shelf, and honestly given the small size of the pieces, I don&#8217;t think they were necessary.
+Once you have chosen which pieces you want where, put some glue along one edge of each board and clamp them together. &nbsp;If you have a biscuit joiner you can put biscuits between them to keep them level. &nbsp;I did this for the top but not for the shelf, and honestly given the small size of the pieces, I don't think they were necessary.
 
 [![-](images/simple-end-table-in-a-weekend/End-Table-4-300x225.jpg)](images/simple-end-table-in-a-weekend/End-Table-4.png)
 
-Once the glue has dried, trim 1/4&#8243; off each of the edges of the larger piece to make the final size of **11&#8243; x 18&#8243;**. This will ensure that the ends are clean.
+Once the glue has dried, trim 1/4&Prime; off each of the edges of the larger piece to make the final size of **11&Prime; x 18&Prime;**. This will ensure that the ends are clean.
 
-Do the same with the smaller piece but you will also need to trim the sides to get to the final dimension of <span style="white-space: nowrap;"><strong>8-1/2&#8243; x 15-1/2&#8243;</strong></span>
+Do the same with the smaller piece but you will also need to trim the sides to get to the final dimension of <span style="white-space: nowrap;"><strong>8-1/2&Prime; x 15-1/2&Prime;</strong></span>
 
 #### The frame:
 
@@ -70,7 +70,7 @@ Now center the top on the frame and screw it on.
 
 #### The Shelf:
 
-Now for the shelf. &nbsp;To fix the shelf to the legs there are a coupe of things we need to do. First we need to cut 3/4&#8243; x 3/4&#8243; notches out of each corner of the shelf. &nbsp;Then we need to drill pocket screw holes in each corner of the shelf. This is how we attach the shelf to the legs.
+Now for the shelf. &nbsp;To fix the shelf to the legs there are a coupe of things we need to do. First we need to cut 3/4&Prime; x 3/4&Prime; notches out of each corner of the shelf. &nbsp;Then we need to drill pocket screw holes in each corner of the shelf. This is how we attach the shelf to the legs.
 
 [![-](images/simple-end-table-in-a-weekend/End-Table-6.jpg)](images/simple-end-table-in-a-weekend/End-Table-6.jpg)
 

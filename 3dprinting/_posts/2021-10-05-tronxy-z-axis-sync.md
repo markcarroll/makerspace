@@ -9,7 +9,7 @@ description: Automatically sync Z axis screws before a print on the Tronxy X5SA 
 image: /3dprinting/images/tronxy-z-axis-sync/IMG_3560.jpeg
 ---
 
-As with a number of 3D printers, the Tronxy X5SA has two Z-axis stepper motors. While normally these help to keep the build plate level, they can get out of alignment when the motors are turned off and, thus, render a previoulsy perfectly level plate wonky.
+As with a number of 3D printers, the [Tronxy X5SA Pro](https://amzn.to/3ncEqdm) has two Z-axis stepper motors. While normally these help to keep the build plate level, they can get out of alignment when the motors are turned off and, thus, render a previoulsy perfectly level plate wonky.
 
 Marlin has a method of auto-aligning these Z stepper motors using the [`G34` command](https://marlinfw.org/docs/gcode/G034.html). This works well if you have a bed probe and a build of Marlin that supports the `G34` command.
 
@@ -21,22 +21,19 @@ Once printed, the following GCode needs to be added to your starting GCode in yo
 
 ```text
 ; Home with Z adjust and Z alignment
-; move up just to be safe
 G91
-G0 F480 Z20
+G0 F480 Z20         ; move up just to be safe
 G90
-; first Home
-G28
-G0 Z10
-; move to a place where the nozzle safely move below the bed
-G0 F3500 X330 Y0
-; Disable software endstops
-M211 S0
-; Z calibration step
-G0 F480 Z-3
-G0 Z20
-; Enable software endstops
-M211 S1
+
+; now start the calibration
+G28                 ; first Home
+G0 Z10              ; move the print head up 
+G0 F3500 X330 Y0    ; move to a place where the nozzle safely move below the bed
+M211 S0             ; Disable software endstops
+G0 F480 Z-3         ; Z calibration step - move up high enough to 'hit' the top
+G0 Z20              ; move Z back to a normal position
+M211 S1             ; Enable software endstops
+
 G0 X0 Y0 F3500
 G28
 ; End of Calibrated Home
