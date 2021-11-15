@@ -16,11 +16,11 @@ print: true
 We have had so much fun with these dinosaurs. I printed them in many different colors and types of filament. 
 Thank you to everyone that designed these. The sources are as follows:
 
-- Velociraptor: <http://www.thingiverse.com/thing:2846359>  
-- Pteradactyl: <http://www.thingiverse.com/thing:3184732>  
-- Triceratops: <https://www.thingiverse.com/thing:2834019>  
-- Brachiosaurus: <https://www.thingiverse.com/thing:2796924>
-- Tyrannosaurus Rex: <https://www.thingiverse.com/thing:2738211>
+- Velociraptor: [thing:2846359](http://www.thingiverse.com/thing:2846359)
+- Pteradactyl: [thing:3184732](http://www.thingiverse.com/thing:3184732)
+- Triceratops: [thing:2834019](https://www.thingiverse.com/thing:2834019)
+- Brachiosaurus: [thing:2796924](https://www.thingiverse.com/thing:2796924)
+- Tyrannosaurus Rex: [thing:2738211](https://www.thingiverse.com/thing:2738211)
 
 ### Print Settings
 
