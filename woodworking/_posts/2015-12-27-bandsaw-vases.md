@@ -7,7 +7,7 @@ image: /woodworking/images/bandsaw-vases/IMG_1047.jpg
 tags: [Gift]
 ---
 
-I was unable to post any pictures of this project since I was building these bandsaw vases as a Christmas gift to my wife. However they are finished now and she loves them, so now I can post&#8230;
+I made these a while back but was originally unable to post any pictures of them since they were a Christmas gift to my wife. By the time I gave them to her I forgot to post any pictures, so here they are.
 
 <!--more-->
 

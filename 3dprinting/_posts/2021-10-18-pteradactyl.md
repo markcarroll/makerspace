@@ -17,7 +17,7 @@ One of many amongst the [articulated creature theme](/tags#Flexi-Creatures). Thi
 
 Created by [Harperbot](https://www.thingiverse.com/Harperbot)
 
-Here is the thingiverse link: <http://www.thingiverse.com/thing:3184732>
+Here is the thingiverse link: [thing:3184732](http://www.thingiverse.com/thing:3184732)
 
 ### Print Settings
 
