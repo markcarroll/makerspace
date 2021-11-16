@@ -6,10 +6,10 @@ category: 3dprinting
 author: mark
 image: /3dprinting/images/ender6-specs/65f565cf-3daa-400a-805b-56b6722f66a2.jpeg
 tags: [Ender 6]
-description: Compilation of specs for Ender 6
+description: Compilation of specs and data sheets for Ender 6 parts. Other references welcome.
 ---
 
-This is a compilation of the Ender 6 specifications that I have been able to find for my reference.
+This is a compilation of the Ender 6 specifications that I have been able to find for my reference. If you know of any more, feel free to send them to me.
 
 ## Overall Specs
 
