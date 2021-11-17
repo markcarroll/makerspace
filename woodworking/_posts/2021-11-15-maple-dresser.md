@@ -38,4 +38,4 @@ You can download there [here](files/maple-dresser/Maple Dresser.pdf).
 
 Good luck.
 
-##### [If you have any comments or feedback, post them here](https://www.reddit.com/r/MarksMakerSpace/comments/qvrcjo/maple_dresser_with_plans/) 
+##### [If you have any comments or feedback, post them here](https://www.reddit.com/r/MarksMakerSpace/comments/qvrj4z/maple_dresser_with_plans/) 
