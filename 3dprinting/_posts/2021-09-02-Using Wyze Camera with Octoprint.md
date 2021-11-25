@@ -30,12 +30,14 @@ Wyze Cam V2's are awesome web cameras that could be found for very little money 
 2. Rename the `openmiko_firmware.bin` to **`demo.bin`** and copy to the root of the microSD card
 3. On the microSD card make the following directories: `/config/overlay/etc` and inside that create a text file called `wpa_supplicant.conf` or download <a href='files/Using-Wyze-Cam-with-Octoprint/wpa_supplicant.conf' download='wpa_supplicant.conf'>this sample <i class='fa fa-download'></i></a>
 4. Edit `wpa_supplicant.conf` and insert your wifi name and password and save it
-5. Power off the camera and insert the microSD card with the `demo.bin` file on it
-6. Hold the setup button, plug in your USB cable, keep holding the setup button for 1-2 seconds until the light is solid blue, then release the button
-7. After about 30 seconds you should get a flashing yellow LED which indicates the camera is working
-8. Now the hard part for some. You need to find the IP address of the camera on your local network. You will need to check your router to find the camera's MAC address (it is usually on a sticker on the camera)
-9. In Octoprint go to settings and choose the Webcam settings and set the stream URL to `http://<cam-ip-address-here>:8080?action=stream` (see example in screenshot) ![Octoprint](images/Using-Wyze-Cam-with-Octoprint/Using-Wyze-Cam-with-Octoprint-4.png){: .screenshot style="margin-top:10px;margin-bottom:0px" }
-10. Then further down set the shapshot URL to `http://<cam-ip-address-here>:8080/?action=snapshot` (Note: remove `webcam/` from the path) ![Octoprint](images/Using-Wyze-Cam-with-Octoprint/Using-Wyze-Cam-with-Octoprint-3.png){: .screenshot style="margin-top:10px;margin-bottom:0px;max-width: 550px;" }
+5. To set the timezone for the time overlay create a file on the SD card in the `/config/overlay/etc` directory called `TZ`. In there put the time zone you want to set up, in my case `PDT8PST`.  
+   **Note**: if you forgot to do this step, you can SSH into the camera and type `echo PDT8PST  > /sdcard/config/overlay/etc/TZ` to fix it later. 
+6. Power off the camera and insert the microSD card with the `demo.bin` file on it
+7. Hold the setup button, plug in your USB cable, keep holding the setup button for 1-2 seconds until the light is solid blue, then release the button
+8. After about 30 seconds you should get a flashing yellow LED which indicates the camera is working
+9.  Now the hard part for some. You need to find the IP address of the camera on your local network. You will need to check your router to find the camera's MAC address (it is usually on a sticker on the camera)
+10. In Octoprint go to settings and choose the Webcam settings and set the stream URL to `http://<cam-ip-address-here>:8080?action=stream` (see example in screenshot) ![Octoprint](images/Using-Wyze-Cam-with-Octoprint/Using-Wyze-Cam-with-Octoprint-4.png){: .screenshot style="margin-top:10px;margin-bottom:0px" }
+11. Then further down set the shapshot URL to `http://<cam-ip-address-here>:8080/?action=snapshot` (Note: remove `webcam/` from the path) ![Octoprint](images/Using-Wyze-Cam-with-Octoprint/Using-Wyze-Cam-with-Octoprint-3.png){: .screenshot style="margin-top:10px;margin-bottom:0px;max-width: 550px;" }
 
 And that should be it.
 
