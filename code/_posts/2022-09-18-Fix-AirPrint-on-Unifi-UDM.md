@@ -48,16 +48,7 @@ It needed some updating for the new UI so here it what it converts to:
 >     * IPsec: `Don't match on IPsec packets`
 >   * Click `Apply Changes`
 
-I have tried removing some of these settings and it is still working, so I will continue to narrow down what the minimal setting change is.  I suspect just setting these is enough:
-
-* Networks
-  * Enable `Multicast DNS`
-  * Enable `IGMP snooping`
-* WiFi → Click on your SSID → Multicast Management `Show Options`
-  * Enable `Multicast enhancement`
-  * Disable `Multicast and Broadcast Control`
-
-So far this seems to doing the trick.
+I have tried removing some of these settings and it is still working, so I will continue to narrow down what the minimal setting change is.  I suspect just setting port `5353` is enough. I am running tests... 
 
 Your mileage may vary. As I said before, I am not a network expert.
 
