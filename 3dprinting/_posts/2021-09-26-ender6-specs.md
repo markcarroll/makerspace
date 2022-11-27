@@ -64,6 +64,12 @@ This is a compilation of the Ender 6 specifications that I have been able to fin
 
 <iframe style="width:120px;height:240px;float:right" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=mwp-14-20&language=en_US&marketplace=amazon&region=US&placement=B0933LWH7R&asins=B0933LWH7R&linkId=fafee0fad658d0f0096242ad6c080b56&show_border=true&link_opens_in_new_window=true"></iframe>
 
+### Lead Screw
+
+The Lead Screw appears to be a Tr8x8, 2mm pitch, 4 starts, 500mm
+
+I have not had need to replace mine but i have heard people having success with [this one](https://amzn.to/3u534iM) from Amazon
+
 ### Trinamic Stepper Motor Drivers
 
 I am running my Ender 6 on a [BigTreeTech SKR 2](https://amzn.to/3lZWB4q) main board with [Trinamic TMC2209 drivers](https://amzn.to/3EVruPR) as my machine was a victim of Creality's **_board fraud_** and contained two A4988 drivers for the Z and extruder steppers instead of the advertised TMC2208's. So I decided to go one better and installed an SKR 2 with five TMC2209s. Why five you may ask, well I am planning on eventually adding a second extruder for two color printing.
