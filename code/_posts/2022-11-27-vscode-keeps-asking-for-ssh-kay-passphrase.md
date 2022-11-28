@@ -17,9 +17,9 @@ I have a separate key file for GitHub instead of using the default `id_rsa` key 
 
 My GitHub-specific key file is called `github.key` which you will see referenced below. Of course change this to match what you need.
 
-### Persisting the key and pass-phase to macOS KeyChain
+### Persisting the key and passphrase to macOS KeyChain
 
-What we need to do is add the GitHub specific key file to macOS's `ssh-agent` which is running in the background by default. This is done by using:
+What we need to do is add the GitHub specific key file to macOS's `ssh-agent` which is running in the background by default. This is done by typing the following terminal command:
 
 ```sh
 ssh-add ~/.ssh/github.key 
