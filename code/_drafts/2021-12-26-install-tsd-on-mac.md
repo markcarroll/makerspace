@@ -5,7 +5,7 @@ author: mark
 categories: [ 3dprinting ]
 tags: [TSD, Voron, Ender6]
 image: assets/images/5.jpg
-description: "My steps to tnstalling The Spaghetti Detective on a Mac"
+description: "My steps to installing The Spaghetti Detective on a Mac"
 print: false
 ---
 

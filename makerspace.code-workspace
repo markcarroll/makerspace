@@ -29,6 +29,9 @@
       "titleBar.inactiveForeground": "#e7e7e799",
       "commandCenter.border": "#e7e7e799"
     },
-    "peacock.color": "#436051"
-  }
+    "peacock.color": "#436051",
+    "cSpell.words": [
+      "Tradfri",
+      "Zigbee"
+    ]
 }
