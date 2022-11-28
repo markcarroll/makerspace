@@ -5,7 +5,7 @@ author: mark
 categories: [ code ]
 tags: [VSCode, macOS, SSH]
 image: code/assets/github-ssh-key.png
-description: "How to stop VSCode from continually asking for ssh Key passphrase on MacOs Ventura"
+description: "How to stop VSCode from continually asking for SSH Key passphrase on macOS Ventura"
 featuredImage: false
 print: false
 
