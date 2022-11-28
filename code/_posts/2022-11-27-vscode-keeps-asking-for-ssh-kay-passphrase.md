@@ -13,7 +13,9 @@ print: false
 
 Ever since upgrading my Macs to macOS 13 (Ventura) I have noticed that VSCode keeps asking for the passphrase for the SSH Key associated with my GitHub user account.
 
-I have a separate key file for GitHub instead of using the default `id_rsa` key file. This helps me keep some separation between my default machine key and the one that I use for accessing GitHub. As is recommended, that key file has a passphrase to access it which is what VSCode keeps asking for every time it tries to open the key file.  My GitHub-specific key file is called `github.key` which you will see referenced below. Of course change this to match what you need.
+I have a separate key file for GitHub instead of using the default `id_rsa` key file. This helps me keep some separation between my default machine key and the one that I use for accessing GitHub, which i can then sync across machines. As is recommended, that key file has a passphrase to access it which is what VSCode keeps asking for every time it tries to check the status of my GitHub repos.  
+
+My GitHub-specific key file is called `github.key` which you will see referenced below. Of course change this to match what you need.
 
 ### Persisting the key and pass-phase to macOS KeyChain
 
