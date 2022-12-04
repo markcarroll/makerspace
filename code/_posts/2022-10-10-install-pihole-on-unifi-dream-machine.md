@@ -28,6 +28,7 @@ So here goes...
 ## Log in to your UDM terminal
 
 From your command line execute `ssh` as shown below. Note the password will be the one you created earlier.
+
 ```sh
 ~  ssh root@unifi.local
 Welcome to UbiOS
@@ -113,7 +114,7 @@ You can now place your scripts in `/mnt/data/on_boot.d`
 
 ## Install SSH key for password-less login (optional)
 
-Create a file called `/mnt/data/on_boot.d/settings/ssh/authorized_keys` and paste in your SSH **Public Key** from your local machine. 
+Create a file called `/mnt/data/on_boot.d/settings/ssh/authorized_keys` and paste in your SSH **Public Key** from your local machine.
 
 Now crate a file at `/mnt/data/on_boot.d/15-add-root-ssh-keys.sh`  and copy in the content from [15-add-root-ssh-keys.sh](https://github.com/unifi-utilities/unifios-utilities/blob/main/on-boot-script/examples/udm-files/on_boot.d/15-add-root-ssh-keys.sh).
 
@@ -124,7 +125,7 @@ chmod ugo+x /mnt/data/on_boot.d/15-add-root-ssh-keys.sh
 /mnt/data/on_boot.d/15-add-root-ssh-keys.sh
 ```
 
-Now you can connect to your UDM directly with `ssh root@unifi.local` and you will not need a password. 
+Now you can connect to your UDM directly with `ssh root@unifi.local` and you will not need a password.
 
 ## Install PiHole container
 
@@ -194,7 +195,7 @@ mkdir -p /mnt/data/pihole/etc-dnsmasq.d
 
 ### Create the pihole container
 
-I set mine up a little differently than the `README.md` since I wanted to make sure local machine name resolution was working properly and this setup worked for me in the past. 
+I set mine up a little differently than the `README.md` since I wanted to make sure local machine name resolution was working properly and this setup worked for me in the past.
 
 ```sh
 podman run -d --network dns --restart always --name pihole -e TZ="America/Los Angeles" --cap-add=NET_ADMIN -v "/mnt/data/etc-pihole/:/etc/pihole/" -v "/mnt/data/pihole/etc-dnsmasq.d/:/etc/dnsmasq.d/" --dns=127.0.0.1 --hostname pi.hole -e VIRTUAL_HOST="pi.hole" -e PROXY_LOCATION="pi.hole" -e FTLCONF_REPLY_ADDR4="10.0.5.3" -e IPv6="False" -e DNS_FQDN_REQUIRED=true -e DNS_BOGUS_PRIV=false -e DNSSEC=false -e REV_SERVER=true -e REV_SERVER_CIDR=10.0.1.0/24 -e REV_SERVER_TARGET=10.0.1.1 -e REV_SERVER_DOMAIN= -e PIHOLE_DNS_1=10.0.1.1 pihole/pihole:latest
@@ -232,5 +233,3 @@ podman run -d --network dns --restart always --name pihole -e TZ="America/Los An
 ```
 
 where the last command is the one you used to create the container.
-
-
