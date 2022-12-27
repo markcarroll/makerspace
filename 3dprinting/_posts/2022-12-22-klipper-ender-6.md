@@ -8,6 +8,8 @@ image: /3dprinting/images/klipper-ender-6/ender6-klipper.jpg
 toc: true
 ---
 
+VERY ROUGH notes on running Klipper on an Ender 6.  [Comments/edits welcome](https://www.reddit.com/r/MarksMakerSpace/comments/zwny5v/updated_ender_6_klipper_post/). 
+
 ## Klipper Tips
 
 ### Config Files
@@ -200,3 +202,6 @@ To start, stop or restart klipper service on the Raspberry Pi command line:
 ```sh
 sudo service klipper start|stop|restart
 ```
+
+
+[Comments/edits here on Reddit](https://www.reddit.com/r/MarksMakerSpace/comments/zwny5v/updated_ender_6_klipper_post/) 
