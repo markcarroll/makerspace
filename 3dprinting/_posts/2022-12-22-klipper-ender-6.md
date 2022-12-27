@@ -12,7 +12,9 @@ toc: true
 
 ### Config Files
 
-You can view my current Ender 6 config at my Github repo: [klipper_ender6](https://github.com/markcarroll/klipper_ender6) 
+You can view my current Ender 6 config at my Github repo: [klipper_ender6](https://github.com/markcarroll/klipper_ender6)
+
+Here is a [sample one](../files/klipper-ender-6/ender6_printer.cfg) that I snapshotted early on.
 
 ### Bed leveling
 
