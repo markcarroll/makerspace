@@ -52,3 +52,34 @@ I bought these from West3D for $89.99+Tax, however I have since found that OMC/S
 
 - Full DataSheet: [17HS19-2004S1.pdf](https://www.omc-stepperonline.com/download/17HS19-2004S1.pdf)
 - Torque Curve: [17HS19-2004S1 Torque Curve.pdf](https://www.omc-stepperonline.com/download/17HS19-2004S1_Torque_Curve.pdf)
+
+## Klipper settings
+
+According to the formula the 17HS19-2004S1 is specified with a maximum current of 2.0 Amps. Maximum run current is 2.0 \* .707 = 1.414, rounded down to a maximum RMS run current of 1.4 Amps. Maximum hold current is 1.414 \* 0.6 = 0.8484, rounded to a maximum hold current of 0.8 Amps.
+
+However, that produced some very noisy motors for me, so I am currently running them as follows:
+
+```ini
+[tmc2209 stepper_x]
+uart_pin: PC4
+interpolate: false
+run_current: 1.1
+sense_resistor: 0.110
+stealthchop_threshold: 0
+
+[tmc2209 stepper_y]
+uart_pin: PD11
+interpolate: false
+run_current: 1.1
+sense_resistor: 0.110
+stealthchop_threshold: 0
+
+## this applies to stepper_z to stepper_z3
+[tmc2209 stepper_z]
+uart_pin: PC6
+interpolate: false
+run_current: 0.8
+sense_resistor: 0.110
+stealthchop_threshold: 9999
+
+```
