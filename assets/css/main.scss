@@ -40,17 +40,21 @@ body.layout-default {
 .btn--linkedin:visited { background-color: #007bb6; color: #fff; }
 .btn--linkedin:hover { background-color: #006292; color: #fff; }
 
-table.print-settings {
-  font-family: Orbitron;
+table {
   margin-bottom: 20px; 
   margin-bottom: 1.25rem; 
   border-left: 1px solid #ebebeb; 
   border-top: 1px solid #ebebeb;
-  td:not(:first-child) { font-family:Merriweather }
-  td, th { padding: 5px 10px; border-right: 1px solid #ebebeb; border-bottom: 1px solid #ebebeb; }
+  td,th { padding: 5px 10px; border-right: 1px solid #ebebeb; border-bottom: 1px solid #ebebeb; }
   th { font-weight: 600; }
   tr:nth-child(odd) {background-color: #f2f2f2;}
 }
+
+table.print-settings {
+  font-family: Orbitron;
+  td:not(:first-child) { font-family:Merriweather }
+}
+
 
 /* We need to add display:inline in order to align the '>>' of the 'read more' link */
 .post-excerpt p {

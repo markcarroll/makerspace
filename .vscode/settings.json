@@ -1,4 +1,23 @@
 {
   "jekyll-run.commandLineArguments": "--host 127.0.0.1 --drafts --livereload --trace",
-  "editor.wordWrapColumn": 120
+  "editor.wordWrapColumn": 120,
+  "cSpell.words": [
+    "3dprinting",
+    "Bowden",
+    "ERCF",
+    "Fabreeko",
+    "Hotend",
+    "Keenovo",
+    "Klicky",
+    "klipper",
+    "Nema",
+    "Sexbolt",
+    "Stepperonline",
+    "Tradfri",
+    "Tronxy",
+    "VORON",
+    "Wago",
+    "Wagos",
+    "Zigbee"
+  ]
 }
