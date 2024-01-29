@@ -92,3 +92,17 @@ a[href*="thingiverse"] {
     vertical-align: middle;
   }
 }
+
+a[href*="printables"] { 
+  &:after{
+    display: inline-block;
+    content: ' ';
+    background-image: url('/assets/images/printables.svg');
+    background-size: 4em;
+    background-repeat: no-repeat;
+    height: 1em;
+    width: 1em;
+    margin: 0em 0.25em;
+    vertical-align: middle;
+  }
+}
