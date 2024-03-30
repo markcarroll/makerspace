@@ -61,6 +61,54 @@ table.print-settings {
 	display:inline;
 }
 
+@mixin color-box-size {
+  height: 1.7em;
+  width: 2em;
+  display: inline-block;
+  vertical-align: middle;
+}
+@mixin color-box-size-hover {
+  height: 6em;
+  width: 6em;
+}
+
+td img.color-box { position: relative; }
+img.color-box {
+  @include color-box-size;
+
+  &:hover {
+    @include color-box-size-hover;
+  }
+}
+
+.color-box-container {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+
+  .color-box {
+    @include color-box-size;
+  }
+
+  .color-box-text {
+    display: none;
+    margin-right:0.5em;
+  }
+
+  &:hover .color-box {
+    // position:absolute;
+    // bottom: 1.7em;
+    // left: -0.5em;
+    @include color-box-size-hover;
+  }
+
+  &:hover .color-box-text {
+    display: unset;
+  }
+}
+
+
+
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 // @import	"syntax", "starsnonscss";

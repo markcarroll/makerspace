@@ -1,6 +1,5 @@
 {
   "jekyll-run.commandLineArguments": "--host 127.0.0.1 --drafts --livereload --trace",
-  "editor.wordWrapColumn": 500,
   "cSpell.words": [
     "3dprinting",
     "Bambu",
